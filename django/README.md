@@ -7,7 +7,7 @@ The code in this repository is used to import, clean, and manage the data for th
 2. Edit `example.env` to contain your required secrets and rename it to `.env`
     - Instructions provided in the comments of that file
 3. Make sure the Docker daemon is running, either by opening the Desktop app or using the CLI tool
-4. Run `docker compose up` to create and run the container 
+4. Navigate to `django` and run `docker compose up` to create and run the container 
 5. Visit `localhost:8000` in your browser to make sure it is up and running. If it says "OK", everything is working as intended
 6. This may or may not create the correct tables. To ensure it, exec into the Django docker container and run the migrations:
     1. Run `docker exec -it django sh` to enter the shell inside the django docker container
@@ -17,7 +17,7 @@ The code in this repository is used to import, clean, and manage the data for th
 
 # Reproducing data
 
-If you run these multiple times, I recommend wiping the corresponding tables through the Postgres console. You can enter postgres console using `docker exec -it db psql -U postgres`. I also recommend performing data creation in the order it is listed below. This cuts dependencies between tables and reduces errors.
+If you run these multiple times, I recommend wiping the corresponding tables through the Postgres console. You can enter postgres console using `docker exec -it db psql -U postgres`. I also recommend performing data creation in the order it is listed below. This cuts dependencies between tables and reduces errors. All of this will take place in the `/django` directory.
 
 ## Stocks
 
