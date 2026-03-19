@@ -22,6 +22,46 @@ from server.models import (
     Congress
 )
 
+import os
+import django
+from datetime import datetime, timedelta
+import requests
+from dotenv import load_dotenv
+import pandas as pd
+import csv
+from datetime import datetime, date
+from django.db import transaction
+from collections import defaultdict
+import json
+
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
+
+load_dotenv()
+
+API_KEY = os.environ.get("CONGRESS_API_KEY")
+
+
+django.setup()
+from server.models import (
+    Stock,
+    Sector,
+    Congress
+)
+
+
+# insert congress 112-119
+def insert_congresses():
+    congresses = [(n, 1947 + (n - 80) * 2, 1949 + (n - 80) * 2) for n in range(80, 120)]
+    for number, start, end in congresses:
+        Congress.objects.get_or_create(
+            congress_number=number,
+            defaults={
+                'start_year': date(start, 1, 3),
+                'end_year': date(end, 1, 3),
+            }
+        )
+
 # Matches party history and term
 def get_party_for_term(party_history, term_start_year):
     sorted_history = sorted(party_history, key=lambda p: p['startYear'], reverse=True)
@@ -97,4 +137,6 @@ def getAllMemberData():
         time.sleep(1)
 
 if __name__ == '__main__':
+    insert_congresses()
+    getMemberIds()
     getAllMemberData()
