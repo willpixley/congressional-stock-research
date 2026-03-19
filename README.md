@@ -53,3 +53,6 @@ Creates buy/sell pairs from the trades, matched on Member, stock, and amount. Se
 3. The command will create around 46,595 segments. 24,269 closed, 22,326 open
 
 
+# Running into issues?
+
+I believe this data should be easily available to anyone who wants it. If you're having trouble and are unable to solve it, feel free to send me an email at [will@willpixley.com](mailto:will@willpixley.com)
