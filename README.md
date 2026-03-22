@@ -8,11 +8,12 @@ The code in this repository is used to import, clean, and manage the data for th
     - Instructions provided in the comments of that file
 3. Make sure the Docker daemon is running, either by opening the Desktop app or using the CLI tool
 4. Navigate to `django` and run `docker compose up` to create and run the container 
-5. Visit `localhost:8000` in your browser to make sure it is up and running. If it says "OK", everything is working as intended
-6. This may or may not create the correct tables. To ensure it, exec into the Django docker container and run the migrations:
+5. Create the tables in Postgres
     1. Run `docker exec -it django sh` to enter the shell inside the django docker container
     2. In the shell, run `python manage.py makemigrations`
     3. Run `python manage.py migrate`. This should populate the DB with the correct tables.
+6. Visit `localhost:8000` in your browser to make sure it is up and running. If it says "OK", everything is working as intended
+
 
 
 # Reproducing data
