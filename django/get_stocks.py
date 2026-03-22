@@ -56,7 +56,7 @@ def getStocks():
         sector_code="00",
         defaults={"sector_name": "Other", "description": "Other or misc. sectors"}
     )
-    
+    df = pd.read_csv('./data/NASDAQ.csv')
     stocks = []
     for _, row in df.iterrows():
         stock = Stock( name=row["Name"], ticker=row["Symbol"])
