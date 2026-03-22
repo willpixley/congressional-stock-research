@@ -22,7 +22,7 @@ If you run these multiple times, I recommend wiping the corresponding tables thr
 
 ## Stocks
 
-This will populate the table `server_stock` with over 11,000 stocks from three different American exchanges. *Note: Around 20 stocks were inserted manually. These can be found in `get_stocks.py` in the `manually_inserted_stocks` array. I inserted these manually using the postgres console, but writing a script to import these would be trivial.*
+This will populate the table `server_stock` with over 11,000 stocks from three different American exchanges. *Note: More stocks will be inserted when trade data is imported.*
 
 1. Enter the Django shell using the steps in "Getting Started" step 6.
 2. Run `python get_stocks.py`. This will pull stocks from the files in the `/data` directory. Since the code currently does not support Sectors, it creates a placeholder sector
@@ -37,7 +37,7 @@ Populates the `server_congressmember`, `server_term`, and `server_congress` tabl
 
 ## Stock Trades
 
-The moment you've all been waiting for. This command will populate the `server_trade` table from the CSV stored in the `/data` directory. The data was downloaded from [Quiver Quant](https://www.quiverquant.com/) and covers congressional trades from 2012 (the beginning of the STOCK Act) through the end of 2025. There are 109,000 rows in the dataset, but I was only able to correctly import and attribute 91,342 of them (after manually inserting the stocks mentioned above). 
+The moment you've all been waiting for. This command will populate the `server_trade` table from the CSV stored in the `/data` directory. The data was downloaded from [Quiver Quant](https://www.quiverquant.com/) and covers congressional trades from 2012 (the beginning of the STOCK Act) through the end of 2025. There are 109,000 rows in the dataset, but I was only able to correctly import and attribute 108,409 of them. 
 
 1. Enter the Django shell
 2. Run `python get_trades.py`
@@ -51,7 +51,7 @@ Creates buy/sell pairs from the trades, matched on Member, stock, and amount. Se
 
 1. Enter the Django shell
 2. Run `python manage.py create_segments`
-3. The command will create around 46,595 segments. 24,269 closed, 22,326 open
+3. The command will create 54,859 segments. 27,688 closed, 27,171 open
 
 
 # Running into issues?
