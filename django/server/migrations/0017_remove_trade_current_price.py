@@ -6,12 +6,12 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0016_remove_trade_traded_by'),
+        ("server", "0016_remove_trade_traded_by"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='trade',
-            name='current_price',
+            model_name="trade",
+            name="current_price",
         ),
     ]

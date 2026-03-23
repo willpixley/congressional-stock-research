@@ -26,10 +26,6 @@ from server.models import (
 )
 
 
-
-
-
-
 # Gets midpoint of trade size
 def parse_trade_size(size_str):
     if not size_str:
@@ -62,7 +58,6 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
         "TBK": "TFIN",
     }
 
-
     trades_to_create = []
 
     # ticker -> count
@@ -77,8 +72,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
         "missing_members": 0,
         "missing_stocks": 0,
         "other_errors": 0,
-        "no_amount_errors": 0
-        
+        "no_amount_errors": 0,
     }
 
     with open(path, newline="", encoding="utf-8") as f:
@@ -105,9 +99,8 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
                 member = CongressMember.objects.get(bio_guide_id=row["BioGuideID"])
                 ticker = ticker_mapping.get(row["Ticker"], row["Ticker"])
                 stock, _ = Stock.objects.get_or_create(
-                               ticker=ticker,
-                                defaults={"name": "unknown", "sector_id": "00"}
-                            )
+                    ticker=ticker, defaults={"name": "unknown", "sector_id": "00"}
+                )
                 amount = parse_trade_size(row["Trade_Size_USD"])
                 if not amount:
                     meta["no_amount_errors"] += 1
@@ -118,7 +111,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
                     date=trade_date,
                     amount=amount,
                     member=member,
-                    price_at_trade=0, # Will populate later
+                    price_at_trade=0,  # Will populate later
                 )
                 trades_to_create.append(trade)
 
@@ -141,7 +134,9 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
     meta["trades_inserted"] = len(trades_to_create)
     meta["invalid_transaction_types"] = list(invalid_transaction_types)
     unmatched_tickers = dict(unmatched_tickers)
-    sorted_unmatched_tickers = dict(sorted(unmatched_tickers.items(), key=lambda x: x[1], reverse=True))
+    sorted_unmatched_tickers = dict(
+        sorted(unmatched_tickers.items(), key=lambda x: x[1], reverse=True)
+    )
 
     output = {
         "meta": meta,
@@ -156,5 +151,5 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
 
 
 if __name__ == "__main__":
-    
+
     import_trades_from_csv("./data/all_trades.csv")

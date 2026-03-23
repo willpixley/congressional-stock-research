@@ -7,16 +7,30 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0001_initial'),
+        ("server", "0001_initial"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='TradeSegment',
+            name="TradeSegment",
             fields=[
-                ('id', models.BigIntegerField(primary_key=True, serialize=False)),
-                ('buy_trade', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='buy_trade', to='server.trade')),
-                ('sell_trade', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='sell_trade', to='server.trade')),
+                ("id", models.BigIntegerField(primary_key=True, serialize=False)),
+                (
+                    "buy_trade",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="buy_trade",
+                        to="server.trade",
+                    ),
+                ),
+                (
+                    "sell_trade",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="sell_trade",
+                        to="server.trade",
+                    ),
+                ),
             ],
         ),
     ]

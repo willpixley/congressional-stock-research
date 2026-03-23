@@ -6,18 +6,20 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0014_alter_term_unique_together'),
+        ("server", "0014_alter_term_unique_together"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='committee',
-            name='id',
+            model_name="committee",
+            name="id",
         ),
         migrations.AddField(
-            model_name='committee',
-            name='committee_code',
-            field=models.CharField(default='placeholder', max_length=30, primary_key=True, serialize=False),
+            model_name="committee",
+            name="committee_code",
+            field=models.CharField(
+                default="placeholder", max_length=30, primary_key=True, serialize=False
+            ),
             preserve_default=False,
         ),
     ]

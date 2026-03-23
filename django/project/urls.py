@@ -19,8 +19,6 @@ from django.urls import path
 from django.http import HttpResponse
 
 
-
-
 def health_check(request):
     print("Health Check Called")
     return HttpResponse("OK")

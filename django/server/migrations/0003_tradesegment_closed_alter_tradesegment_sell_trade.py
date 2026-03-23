@@ -7,18 +7,24 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0002_tradesegment'),
+        ("server", "0002_tradesegment"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='tradesegment',
-            name='closed',
+            model_name="tradesegment",
+            name="closed",
             field=models.BooleanField(default=False),
         ),
         migrations.AlterField(
-            model_name='tradesegment',
-            name='sell_trade',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='sell_trade', to='server.trade'),
+            model_name="tradesegment",
+            name="sell_trade",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="sell_trade",
+                to="server.trade",
+            ),
         ),
     ]

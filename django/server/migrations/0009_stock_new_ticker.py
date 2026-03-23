@@ -7,13 +7,19 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0008_congress_remove_committeemembership_congress_number_and_more'),
+        ("server", "0008_congress_remove_committeemembership_congress_number_and_more"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='stock',
-            name='new_ticker',
-            field=models.ForeignKey(blank=True, default=None, null=True, on_delete=django.db.models.deletion.CASCADE, to='server.stock'),
+            model_name="stock",
+            name="new_ticker",
+            field=models.ForeignKey(
+                blank=True,
+                default=None,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                to="server.stock",
+            ),
         ),
     ]

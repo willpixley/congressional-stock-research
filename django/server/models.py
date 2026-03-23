@@ -11,18 +11,20 @@ PARTY_CHOICES = {"D": "Democrat", "R": "Republican", "I": "Independent"}
 class CongressMember(models.Model):
     bio_guide_id = models.CharField(max_length=100, primary_key=True)
     first_name = models.CharField(max_length=255)
-    middle_initial = models.CharField(max_length=2) # initial + .
+    middle_initial = models.CharField(max_length=2)  # initial + .
     last_name = models.CharField(max_length=255)
-    inverse_name = models.CharField(max_length=255, null=True) # Name in format last, first MI
+    inverse_name = models.CharField(
+        max_length=255, null=True
+    )  # Name in format last, first MI
     # Yes it is redundant, but gives more options to match how they are stored in most data sources
-    full_name = models.CharField(max_length=255, null=True) 
-   
+    full_name = models.CharField(max_length=255, null=True)
 
 
 class Congress(models.Model):
     congress_number = models.IntegerField(primary_key=True)
     start_year = models.DateField()
     end_year = models.DateField()
+
 
 # Contains term-specific info
 class Term(models.Model):
@@ -31,10 +33,11 @@ class Term(models.Model):
     chamber = models.CharField(max_length=1, choices=CHAMBER_CHOICES)
     party = models.CharField(max_length=2)
     state = models.CharField(max_length=2)
-    # There should only be one term for each member in a given congressional session and given chamber. 
+
+    # There should only be one term for each member in a given congressional session and given chamber.
     # Member should be able to move chambers
     class Meta:
-        unique_together = ('member', 'congress', 'chamber')
+        unique_together = ("member", "congress", "chamber")
 
 
 class Sector(models.Model):
@@ -47,9 +50,7 @@ class Committee(models.Model):
     committee_code = models.CharField(max_length=30, primary_key=True)
     committee_name = models.CharField(max_length=255)
     chamber = models.CharField(max_length=1, choices=CHAMBER_CHOICES)
-    committee_members = models.ManyToManyField(
-        Term, through="CommitteeMembership"
-    )
+    committee_members = models.ManyToManyField(Term, through="CommitteeMembership")
     sector = models.ForeignKey(Sector, on_delete=models.CASCADE, default="00")
 
 
@@ -58,7 +59,6 @@ class CommitteeMembership(models.Model):
     committee = models.ForeignKey(Committee, on_delete=models.CASCADE)
     member_term = models.ForeignKey(Term, on_delete=models.CASCADE, null=True)
     role = models.CharField(max_length=100, default="")
-    
 
 
 ## Join table
@@ -70,16 +70,10 @@ class Stock(models.Model):
     ticker = models.CharField(max_length=9, primary_key=True)
     name = models.CharField(max_length=255, default=ticker)
     sector = models.ForeignKey(Sector, on_delete=models.CASCADE, null=True, blank=True)
-    
-    
 
 
 class Trade(models.Model):
-    ACTION_CHOICES = {
-        "B": "Buy",
-        "S": "Sell",
-        "E": "Exchange"
-    }
+    ACTION_CHOICES = {"B": "Buy", "S": "Sell", "E": "Exchange"}
     type = models.CharField(max_length=1, choices=ACTION_CHOICES)
     stock = models.ForeignKey(Stock, on_delete=models.CASCADE)
     date = models.DateField()
@@ -87,7 +81,7 @@ class Trade(models.Model):
     member = models.ForeignKey(
         CongressMember,
         on_delete=models.CASCADE,
-        to_field="bio_guide_id",  
+        to_field="bio_guide_id",
         db_column="bio_guide_id",
         related_name="trade",
     )

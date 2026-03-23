@@ -6,13 +6,15 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0018_alter_trade_id'),
+        ("server", "0018_alter_trade_id"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='trade',
-            name='type',
-            field=models.CharField(choices=[('B', 'Buy'), ('S', 'Sell'), ('E', 'Exchange')], max_length=1),
+            model_name="trade",
+            name="type",
+            field=models.CharField(
+                choices=[("B", "Buy"), ("S", "Sell"), ("E", "Exchange")], max_length=1
+            ),
         ),
     ]

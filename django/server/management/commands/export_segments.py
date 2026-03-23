@@ -62,30 +62,30 @@ class Command(BaseCommand):
                 state = term.state if term else None
                 chamber = term.get_chamber_display() if term else None
 
-                writer.writerow([
-                    segment.id,
-                    segment.closed,
-                    buy.id,
-                    buy.date,
-                    buy.amount,
-                    buy.price_at_trade,
-                    sell.id,
-                    sell.date,
-                    sell.amount,
-                    sell.price_at_trade,
-                    member.bio_guide_id,
-                    member.full_name,
-                    party,
-                    state,
-                    chamber,
-                    stock.ticker,
-                    stock.name,
-                    sector.sector_code if sector else None,
-                    sector.sector_name if sector else None,
-                ])
+                writer.writerow(
+                    [
+                        segment.id,
+                        segment.closed,
+                        buy.id,
+                        buy.date,
+                        buy.amount,
+                        buy.price_at_trade,
+                        sell.id,
+                        sell.date,
+                        sell.amount,
+                        sell.price_at_trade,
+                        member.bio_guide_id,
+                        member.full_name,
+                        party,
+                        state,
+                        chamber,
+                        stock.ticker,
+                        stock.name,
+                        sector.sector_code if sector else None,
+                        sector.sector_name if sector else None,
+                    ]
+                )
 
         self.stdout.write(
-            self.style.SUCCESS(
-                f"Exported closed trade segments to {filename}"
-            )
+            self.style.SUCCESS(f"Exported closed trade segments to {filename}")
         )

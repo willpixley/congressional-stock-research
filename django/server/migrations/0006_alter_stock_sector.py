@@ -7,13 +7,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0005_alter_tradesegment_id'),
+        ("server", "0005_alter_tradesegment_id"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='stock',
-            name='sector',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='server.sector'),
+            model_name="stock",
+            name="sector",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                to="server.sector",
+            ),
         ),
     ]

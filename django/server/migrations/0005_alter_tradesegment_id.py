@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0004_alter_tradesegment_buy_trade_and_more'),
+        ("server", "0004_alter_tradesegment_buy_trade_and_more"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='tradesegment',
-            name='id',
+            model_name="tradesegment",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
     ]

@@ -7,22 +7,34 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('server', '0003_tradesegment_closed_alter_tradesegment_sell_trade'),
+        ("server", "0003_tradesegment_closed_alter_tradesegment_sell_trade"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='tradesegment',
-            name='buy_trade',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='segments_as_buy', to='server.trade'),
+            model_name="tradesegment",
+            name="buy_trade",
+            field=models.ForeignKey(
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="segments_as_buy",
+                to="server.trade",
+            ),
         ),
         migrations.AlterField(
-            model_name='tradesegment',
-            name='sell_trade',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='segments_as_sell', to='server.trade'),
+            model_name="tradesegment",
+            name="sell_trade",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="segments_as_sell",
+                to="server.trade",
+            ),
         ),
         migrations.AddConstraint(
-            model_name='tradesegment',
-            constraint=models.UniqueConstraint(fields=('buy_trade',), name='unique_buy_trade_segment'),
+            model_name="tradesegment",
+            constraint=models.UniqueConstraint(
+                fields=("buy_trade",), name="unique_buy_trade_segment"
+            ),
         ),
     ]

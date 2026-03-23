@@ -3,7 +3,7 @@ import yfinance as yf
 from datetime import timedelta
 
 
-df = pd.read_csv('../data/closed_trade_segments.csv')
+df = pd.read_csv("../data/closed_trade_segments.csv")
 
 
 def download_prices(tickers, start, end):
@@ -13,7 +13,7 @@ def download_prices(tickers, start, end):
         end=end + timedelta(days=1),
         auto_adjust=True,
         progress=False,
-       session=None
+        session=None,
     )
 
     if len(tickers) == 1:
@@ -32,12 +32,12 @@ def download_prices(tickers, start, end):
                     end=end + timedelta(days=1),
                     auto_adjust=True,
                     progress=False,
-                    session=None
+                    session=None,
                 )
 
                 if not single.empty:
                     prices[ticker] = single["Open"]
-                    print(f'Downloaded f{ticker} indvidually')
+                    print(f"Downloaded f{ticker} indvidually")
                 else:
                     print("Empty")
                 break
@@ -45,6 +45,7 @@ def download_prices(tickers, start, end):
                 print(f"Failed to download {ticker}: {e}")
     # Backfill
     return prices.bfill(limit=3)
+
 
 def get_portfolio_returns(bio_guide_id, df):
     member_df = df[df["member_bio_guide_id"] == bio_guide_id].copy()
@@ -57,8 +58,6 @@ def get_portfolio_returns(bio_guide_id, df):
     tickers = member_df["stock_ticker"].unique().tolist()
 
     prices = download_prices(tickers, start_date, end_date)
-    
-
 
     # Get open price on buy date for each segment
     def get_entry_price(row):
@@ -76,7 +75,9 @@ def get_portfolio_returns(bio_guide_id, df):
     member_df = member_df.dropna(subset=["entry_price"])
 
     # Build daily date range
-    all_dates = pd.date_range(start=start_date, end=end_date, freq="B")  # business days, but includes holidays
+    all_dates = pd.date_range(
+        start=start_date, end=end_date, freq="B"
+    )  # business days, but includes holidays
     daily_returns = []
 
     for i, date in enumerate(all_dates):
@@ -115,7 +116,8 @@ def get_portfolio_returns(bio_guide_id, df):
 
     return pd.Series(daily_returns, index=all_dates, name=bio_guide_id)
 
+
 # print(df.groupby(["member_bio_guide_id", "member_name"]).size().reset_index(name="trade_count").sort_values("trade_count", ascending=False).head(50))
 
-returns = get_portfolio_returns('C001114', df)
+returns = get_portfolio_returns("C001114", df)
 returns.to_csv("returns.csv")

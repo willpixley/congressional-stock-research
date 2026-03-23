@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import pandas as pd
 
 
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 
 load_dotenv()
@@ -13,12 +12,7 @@ API_KEY = os.environ.get("CONGRESS_API_KEY")
 
 
 django.setup()
-from server.models import (
-    Stock,
-    Sector,
-)
-
-
+from server.models import Stock, Sector
 
 
 # Manually inserted these stocks:
@@ -45,21 +39,22 @@ manually_inserted_stocks = [
     {"ticker": "WB1", "name": "Westamerica Bancorp", "sector": "00"},
     {"ticker": "TFCF", "name": "Twenty-First Century Fox Inc", "sector": "00"},
     {"ticker": "LRLSQ", "name": "Loral Space", "sector": "00"},
-    {"ticker": "FLT", "name": "Volatus Aerospace Inc", "sector": "00"}, # Canada?
-    {"ticker": "FDC", "name": "FDC Limited", "sector": "00"}, # India
-    {"ticker": "ALBK", "name": "Allahabad Bank", "sector": "00"}, # India
+    {"ticker": "FLT", "name": "Volatus Aerospace Inc", "sector": "00"},  # Canada?
+    {"ticker": "FDC", "name": "FDC Limited", "sector": "00"},  # India
+    {"ticker": "ALBK", "name": "Allahabad Bank", "sector": "00"},  # India
 ]
+
 
 def getStocks():
     # Create our placeholder
     Sector.objects.get_or_create(
         sector_code="00",
-        defaults={"sector_name": "Other", "description": "Other or misc. sectors"}
+        defaults={"sector_name": "Other", "description": "Other or misc. sectors"},
     )
-    df = pd.read_csv('./data/NASDAQ.csv')
+    df = pd.read_csv("./data/NASDAQ.csv")
     stocks = []
     for _, row in df.iterrows():
-        stock = Stock( name=row["Name"], ticker=row["Symbol"])
+        stock = Stock(name=row["Name"], ticker=row["Symbol"])
         stocks.append(stock)
     Stock.objects.bulk_create(stocks, ignore_conflicts=True)
     print("Inserted NASDAQ stocks")
@@ -144,9 +139,6 @@ def getSectors():
         ),
     ]
     Sector.objects.bulk_create(sectors)
-
-
-
 
 
 if __name__ == "__main__":
