@@ -3,17 +3,14 @@ import yfinance as yf
 from datetime import timedelta
 
 
-df = pd.read_csv("../data/closed_trade_segments.csv")
-
-
+# BRK.B -> BRK-B and BF.B -> BF-B
 def download_prices(tickers, start, end):
     raw = yf.download(
         tickers,
         start=start,
         end=end + timedelta(days=1),
         auto_adjust=True,
-        progress=False,
-        session=None,
+        progress=True,
     )
 
     if len(tickers) == 1:
@@ -22,27 +19,27 @@ def download_prices(tickers, start, end):
         prices = raw["Open"]
 
     # Retry failed tickers individually
-    failed = [t for t in tickers if t not in prices.columns or prices[t].isna().all()]
-    for ticker in failed:
-        for attempt in range(3):
-            try:
-                single = yf.download(
-                    ticker,
-                    start=start,
-                    end=end + timedelta(days=1),
-                    auto_adjust=True,
-                    progress=False,
-                    session=None,
-                )
+    # failed = [t for t in tickers if t not in prices.columns or prices[t].isna().all()]
+    # for ticker in failed:
+    #     for attempt in range(3):
+    #         try:
+    #             single = yf.download(
+    #                 ticker,
+    #                 start=start,
+    #                 end=end + timedelta(days=1),
+    #                 auto_adjust=True,
+    #                 progress=False,
+    #                 session=None,
+    #             )
 
-                if not single.empty:
-                    prices[ticker] = single["Open"]
-                    print(f"Downloaded f{ticker} indvidually")
-                else:
-                    print("Empty")
-                break
-            except Exception as e:
-                print(f"Failed to download {ticker}: {e}")
+    #             if not single.empty:
+    #                 prices[ticker] = single["Open"]
+    #                 print(f"Downloaded f{ticker} indvidually")
+    #             else:
+    #                 print("Empty")
+    #             break
+    #         except Exception as e:
+    #             print(f"Failed to download {ticker}: {e}")
     # Backfill
     return prices.bfill(limit=3)
 
@@ -118,6 +115,6 @@ def get_portfolio_returns(bio_guide_id, df):
 
 
 # print(df.groupby(["member_bio_guide_id", "member_name"]).size().reset_index(name="trade_count").sort_values("trade_count", ascending=False).head(50))
-
-returns = get_portfolio_returns("C001114", df)
-returns.to_csv("returns.csv")
+# bio_guide_id = "C001114"
+# returns = get_portfolio_returns(bio_guide_id, df)
+# returns.to_csv(f"{bio_guide_id}returns.csv")
