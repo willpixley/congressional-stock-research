@@ -82,6 +82,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
             meta["rows_processed"] += 1
             try:
                 trade_date = datetime.strptime(row["Traded"], "%Y-%m-%d").date()
+                disclosure_date = datetime.strptime(row["Filed"], "%Y-%m-%d").date()
                 tx = row["Transaction"].lower()
 
                 if tx == "purchase":
@@ -109,6 +110,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
                     type=trade_type,
                     stock=stock,
                     date=trade_date,
+                    disclosure_date=disclosure_date,
                     amount=amount,
                     member=member,
                     price_at_trade=0,  # Will populate later

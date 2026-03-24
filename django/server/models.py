@@ -77,6 +77,7 @@ class Trade(models.Model):
     type = models.CharField(max_length=1, choices=ACTION_CHOICES)
     stock = models.ForeignKey(Stock, on_delete=models.CASCADE)
     date = models.DateField()
+    disclosure_date = models.DateField(default="9999-01-01")
     amount = models.IntegerField()
     member = models.ForeignKey(
         CongressMember,
