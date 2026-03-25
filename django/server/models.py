@@ -51,13 +51,6 @@ class Committee(models.Model):
     committee_name = models.CharField(max_length=255)
     type = models.CharField(max_length=255)
     chamber = models.CharField(max_length=1)
-    parent = models.ForeignKey(
-        "self",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="subcommittees",
-    )
     committee_members = models.ManyToManyField(Term, through="CommitteeMembership")
     sector = models.ManyToManyField(Sector, through="CommitteeSector")
 
