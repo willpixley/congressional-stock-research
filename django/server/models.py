@@ -49,9 +49,17 @@ class Sector(models.Model):
 class Committee(models.Model):
     committee_code = models.CharField(max_length=30, primary_key=True)
     committee_name = models.CharField(max_length=255)
-    chamber = models.CharField(max_length=1, choices=CHAMBER_CHOICES)
+    type = models.CharField(max_length=255)
+    chamber = models.CharField(max_length=1)
+    parent = models.ForeignKey(
+        "self",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="subcommittees",
+    )
     committee_members = models.ManyToManyField(Term, through="CommitteeMembership")
-    sector = models.ForeignKey(Sector, on_delete=models.CASCADE, default="00")
+    sector = models.ManyToManyField(Sector, through="CommitteeSector")
 
 
 ## Join table
@@ -64,6 +72,7 @@ class CommitteeMembership(models.Model):
 ## Join table
 class CommitteeSector(models.Model):
     committee = models.ForeignKey(Committee, on_delete=models.CASCADE)
+    sector = models.ForeignKey(Sector, on_delete=models.CASCADE)
 
 
 class Stock(models.Model):

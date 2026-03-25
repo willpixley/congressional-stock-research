@@ -1,22 +1,3 @@
-# get_member_info.py
-
-import os
-import django
-import requests
-from dotenv import load_dotenv
-import time
-
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
-
-load_dotenv()
-
-API_KEY = os.environ.get("CONGRESS_API_KEY")
-
-
-django.setup()
-from server.models import CongressMember, Term, Congress
-
 import os
 import django
 from datetime import datetime, timedelta
@@ -28,7 +9,7 @@ from datetime import datetime, date
 from django.db import transaction
 from collections import defaultdict
 import json
-
+import time
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 
@@ -38,7 +19,7 @@ API_KEY = os.environ.get("CONGRESS_API_KEY")
 
 
 django.setup()
-from server.models import Stock, Sector, Congress
+from server.models import Congress, CongressMember, Term
 
 
 # insert congress 112-119
