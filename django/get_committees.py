@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 import time
 import pandas as pd
-
+import yaml
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 
@@ -54,7 +54,7 @@ def get_committees():
     print(f"{len(created)} committees created.")
 
 
-# Will take about 20 minutes to run. Must call the /committee/chamber/code API to get committee type (standing, joint, etc.)
+# Will take a few minutes to run. Must call the /committee/chamber/code API to get committee type (standing, joint, etc.)
 def get_committee_types():
     committee_types = set()
     committees = Committee.objects.filter(type="")
@@ -313,9 +313,73 @@ def import_senate_memberships():
     )
 
 
+def import_committee_assignments(yaml_path, congress_num):
+    created = 0
+    skipped_member = 0
+    skipped_term = 0
+    skipped_committee = 0
+
+    with open(yaml_path) as f:
+        data = yaml.safe_load(f)
+
+    for committee_code, members in data.items():
+        # drop if it ends in a number (means it is a subcommittee)
+        if committee_code[-1].isdigit():
+            continue
+
+        # must add trailing 00 for top level committees
+        full_code = committee_code.lower() + "00"
+
+        try:
+            committee = Committee.objects.get(committee_code=full_code)
+        except Committee.DoesNotExist:
+            print(f"Committee not found: {full_code}")
+            skipped_committee += len(members)
+            continue
+
+        for member in members:
+            bioguide = member.get("bioguide")
+            role = member.get("title", "")
+
+            try:
+                congress_member = CongressMember.objects.get(bio_guide_id=bioguide)
+            except CongressMember.DoesNotExist:
+                print(f"Member not found: {bioguide} ({member.get('name')})")
+                skipped_member += 1
+                continue
+
+            term = Term.objects.filter(
+                member=congress_member,
+                congress_id=congress_num,
+            ).first()
+
+            if not term:
+                print(
+                    f"Term not found: {bioguide} ({member.get('name')}) congress {congress_num}"
+                )
+                skipped_term += 1
+                continue
+
+            _, was_created = CommitteeMembership.objects.get_or_create(
+                committee=committee,
+                member_term=term,
+                defaults={"role": role},
+            )
+
+            if was_created:
+                created += 1
+
+    print(
+        f"Created: {created}, Skipped (member): {skipped_member}, "
+        f"Skipped (term): {skipped_term}, Skipped (committee): {skipped_committee}"
+    )
+
+
 if __name__ == "__main__":
     # python get_committees.py
     get_committees()
     get_committee_types()
     import_house_memberships()
     import_senate_memberships()
+    import_committee_assignments("./data/committee-membership-118.yaml", 118)
+    import_committee_assignments("./data/committee-membership-119.yaml", 119)

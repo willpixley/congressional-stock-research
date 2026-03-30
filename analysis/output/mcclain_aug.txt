@@ -2,31 +2,29 @@
 ==============================================================================
 Dep. Variable:             excess_ret   R-squared:                       0.021
 Model:                            OLS   Adj. R-squared:                  0.006
-Method:                 Least Squares   F-statistic:                    0.3134
-Date:                Tue, 24 Mar 2026   Prob (F-statistic):              0.930
-Time:                        16:34:16   Log-Likelihood:                 1058.3
+Method:                 Least Squares   F-statistic:                    0.2932
+Date:                Mon, 30 Mar 2026   Prob (F-statistic):              0.940
+Time:                        14:42:53   Log-Likelihood:                 1058.3
 No. Observations:                 414   AIC:                            -2103.
 Df Residuals:                     407   BIC:                            -2074.
 Df Model:                           6                                         
 Covariance Type:                  HC3                                         
-==================================================================================
-                     coef    std err          z      P>|z|      [0.025      0.975]
-----------------------------------------------------------------------------------
-const              0.0007      0.001      0.495      0.620      -0.002       0.003
-Mkt-RF             0.2619      0.265      0.988      0.323      -0.258       0.781
-SMB               -0.0710      0.195     -0.363      0.716      -0.454       0.312
-HML                0.0538      0.200      0.269      0.788      -0.338       0.446
-RMW               -0.0224      0.254     -0.088      0.930      -0.521       0.476
-CMA               -0.0702      0.207     -0.340      0.734      -0.475       0.335
-disclosure_lag -2.203e-06   4.86e-06     -0.453      0.650   -1.17e-05    7.32e-06
+======================================================================================
+                         coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 -0.0003      0.001     -0.217      0.829      -0.003       0.002
+Mkt-RF                 0.2621      0.269      0.975      0.329      -0.264       0.789
+SMB                   -0.0746      0.196     -0.380      0.704      -0.460       0.310
+HML                    0.0600      0.200      0.300      0.764      -0.332       0.452
+RMW                   -0.0292      0.254     -0.115      0.908      -0.527       0.469
+CMA                   -0.0686      0.207     -0.332      0.740      -0.474       0.337
+daily_policy_index     0.0002      0.001      0.268      0.789      -0.001       0.002
 ==============================================================================
-Omnibus:                       56.479   Durbin-Watson:                   2.449
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              496.886
-Skew:                           0.059   Prob(JB):                    1.27e-108
-Kurtosis:                       8.366   Cond. No.                     9.19e+04
+Omnibus:                       56.019   Durbin-Watson:                   2.450
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              490.411
+Skew:                           0.028   Prob(JB):                    3.22e-107
+Kurtosis:                       8.332   Cond. No.                         597.
 ==============================================================================
 
 Notes:
 [1] Standard Errors are heteroscedasticity robust (HC3)
-[2] The condition number is large, 9.19e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.

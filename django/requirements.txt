@@ -23,6 +23,7 @@ greenlet==3.2.4
 gunicorn==23.0.0
 h11==0.14.0
 idna==3.10
+lxml==6.0.2
 msgpack==1.0.3
 multidict==6.6.4
 multitasking==0.0.11

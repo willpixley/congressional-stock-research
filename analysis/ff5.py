@@ -25,3 +25,7 @@ def run_reg(file_prefix):
 
     with open(f"./output/{file_prefix}.txt", "w") as f:
         f.write(model.summary().as_text())
+
+
+if __name__ == "__main__":
+    run_reg("shreve")
