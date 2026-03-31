@@ -88,10 +88,7 @@ class Trade(models.Model):
         db_column="bio_guide_id",
         related_name="trade",
     )
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-    flagged = models.BooleanField(default=False)
-    checked = models.BooleanField(default=False)
+    conflicted = models.BooleanField(default=False)
     price_at_trade = models.DecimalField(default=0, decimal_places=2, max_digits=10)
 
 

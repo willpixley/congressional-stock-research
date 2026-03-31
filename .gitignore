@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 output/
+wharton_data.csv
+ticker_data.csv

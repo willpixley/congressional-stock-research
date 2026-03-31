@@ -56,6 +56,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
         "DISCA": "WBD",
         "SQ": "XYZ",
         "TBK": "TFIN",
+        "BRK.B": "BRK",
     }
 
     trades_to_create = []
@@ -99,9 +100,12 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
 
                 member = CongressMember.objects.get(bio_guide_id=row["BioGuideID"])
                 ticker = ticker_mapping.get(row["Ticker"], row["Ticker"])
-                stock, _ = Stock.objects.get_or_create(
-                    ticker=ticker, defaults={"name": "unknown", "sector_id": "00"}
-                )
+                try:
+                    stock = Stock.objects.get(ticker=ticker)
+                except Stock.DoesNotExist:
+                    unmatched_tickers[ticker] += 1
+                    meta["missing_stocks"] += 1
+                    continue
                 amount = parse_trade_size(row["Trade_Size_USD"])
                 if not amount:
                     meta["no_amount_errors"] += 1
