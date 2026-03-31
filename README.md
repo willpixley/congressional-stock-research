@@ -20,12 +20,26 @@ The code in this repository is used to import, clean, and manage the data for th
 
 If you run these multiple times, I recommend wiping the corresponding tables through the Postgres console. You can enter postgres console using `docker exec -it db psql -U postgres`. I also recommend performing data creation in the order it is listed below. This cuts dependencies between tables and reduces errors. All of this will take place in the `/django` directory.
 
-## Stocks
+## Stocks and Sectors
 
-This will populate the table `server_stock` with over 11,000 stocks from three different American exchanges. *Note: More stocks will be inserted when trade data is imported.*
+This will populate the table `server_stock` with over 11,000 stocks and their corresponding NAICS sector from CRSP data. *Note: Due to copyright, I cannot provide this data.*
 
-1. Enter the Django shell using the steps in "Getting Started" step 6.
-2. Run `python get_stocks.py`. This will pull stocks from the files in the `/data` directory. Since the code currently does not support Sectors, it creates a placeholder sector
+**Using CRSP Data**
+1. Getting the data:
+    1. Use a quick pandas script to get the unique tickers from the `all_trades.csv` files and output them into a text file, with one ticker per line
+    2. Go to WRDS and select the CRSP vendor
+    3. Select Stock - Version 2
+    4. Select Stock Header Information
+    5. Click search by ticker and upload the txt file from earlier
+    6. Select all fields
+    7. Hit submit
+2. Enter the Django shell using the steps in "Getting Started" step 6.
+3. Run `python get_stocks.py`. This will pull stocks from the files in the `/data` directory. Since the code currently does not support Sectors, it creates a placeholder sector
+
+**Using free data**
+*This will not give you sector information*
+1. Enter the Django shell using the steps above
+2. Run `python get_stocks_free.py`
 
 ## Member Info
 
