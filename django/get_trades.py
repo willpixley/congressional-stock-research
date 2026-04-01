@@ -19,11 +19,7 @@ API_KEY = os.environ.get("CONGRESS_API_KEY")
 
 
 django.setup()
-from server.models import (
-    CongressMember,
-    Stock,
-    Trade,
-)
+from server.models import CongressMember, Stock, Trade, CommitteeMembership
 
 
 # Gets midpoint of trade size
@@ -156,6 +152,35 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
     print(f"Unmatched tickers: {len(unmatched_tickers)}")
 
 
-if __name__ == "__main__":
+def set_conflicted():
+    with transaction.atomic():
+        Trade.objects.update(conflicted=False)
+        conflicted_ids = set()
+        trades = Trade.objects.select_related("stock__sector", "member").filter(
+            stock__sector__isnull=False
+        )
 
-    import_trades_from_csv("./data/all_trades.csv")
+        for trade in trades:
+            stock_sector = trade.stock.sector
+
+            # Find terms the member was serving in during the trade date
+            member_terms = trade.member.term_set.filter(
+                congress__start_year__lte=trade.date, congress__end_year__gte=trade.date
+            )
+
+            # Check if any committee they were on during those terms covers the stock's sector
+            conflicted = CommitteeMembership.objects.filter(
+                member_term__in=member_terms,
+                committee__committeesector__sector=stock_sector,
+            ).exists()
+
+            if conflicted:
+                conflicted_ids.add(trade.pk)
+
+        Trade.objects.filter(pk__in=conflicted_ids).update(conflicted=True)
+        print(f"Found {len(conflicted_ids)} conflicted trades")
+
+
+if __name__ == "__main__":
+    # import_trades_from_csv("./data/all_trades.csv")
+    set_conflicted()
