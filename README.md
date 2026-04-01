@@ -34,10 +34,10 @@ This will populate the table `server_stock` with over 11,000 stocks and their co
     6. Select all fields
     7. Hit submit
 2. Enter the Django shell using the steps in "Getting Started" step 6.
-3. Run `python get_stocks.py`. This will pull stocks from the files in the `/data` directory. Since the code currently does not support Sectors, it creates a placeholder sector
+3. Run `python get_stocks.py`. This will import trades from the CRSP data, populate their sectors, and set the conflicted flag on all trades.
 
 **Using free data**
-*This will not give you sector information*
+*This will not give you sector or conflicted trade information*
 1. Enter the Django shell using the steps above
 2. Run `python get_stocks_free.py`
 
