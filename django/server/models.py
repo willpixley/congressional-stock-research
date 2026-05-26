@@ -1,4 +1,5 @@
 from django.db import models
+from pgvector.django import VectorField
 
 # Choices
 
@@ -62,6 +63,18 @@ class CommitteeMembership(models.Model):
     role = models.CharField(max_length=100, default="")
 
 
+class Hearing(models.Model):
+    jacket_no = models.CharField(
+        max_length=10, primary_key=True
+    )  # Char field but is number. ID may have leading 0s though
+    committees = models.ManyToManyField(Committee, related_name="hearings")
+    congress = models.ForeignKey(Congress, on_delete=models.CASCADE)
+    chamber = models.CharField(max_length=1)
+    title = models.TextField(null=True)
+    transcript = models.TextField(null=True)
+    embedding = VectorField(dimensions=768, null=True)
+
+
 ## Join table
 class CommitteeSector(models.Model):
     committee = models.ForeignKey(Committee, on_delete=models.CASCADE)
@@ -72,6 +85,8 @@ class Stock(models.Model):
     ticker = models.CharField(max_length=9, primary_key=True)
     name = models.CharField(max_length=255, default=ticker)
     sector = models.ForeignKey(Sector, on_delete=models.CASCADE, null=True, blank=True)
+    description = models.TextField(blank=True, null=True)
+    embedding = VectorField(dimensions=768, null=True)
 
 
 class Trade(models.Model):
@@ -90,6 +105,7 @@ class Trade(models.Model):
     )
     conflicted = models.BooleanField(default=False)
     price_at_trade = models.DecimalField(default=0, decimal_places=2, max_digits=10)
+    description = models.TextField(null=True, blank=True)
 
 
 ### Tracks buy-sell pairs of similar quantities
@@ -135,4 +151,22 @@ class TradeSegment(models.Model):
             models.UniqueConstraint(
                 fields=["buy_trade"], name="unique_buy_trade_segment"
             )
+        ]
+
+
+class StockPrice(models.Model):
+    ticker = models.ForeignKey(
+        Stock, on_delete=models.CASCADE, to_field="ticker", db_column="ticker"
+    )
+    date = models.DateField()
+    price = models.DecimalField(max_digits=12, decimal_places=4, null=True)
+    ret = models.DecimalField(max_digits=10, decimal_places=6, null=True)
+    retx = models.DecimalField(max_digits=10, decimal_places=6, null=True)
+    vwretd = models.DecimalField(max_digits=10, decimal_places=6, null=True)
+    sprtrn = models.DecimalField(max_digits=10, decimal_places=6, null=True)
+
+    class Meta:
+        unique_together = ("ticker", "date")
+        indexes = [
+            models.Index(fields=["ticker", "date"]),
         ]

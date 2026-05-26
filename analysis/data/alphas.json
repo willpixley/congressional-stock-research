@@ -1,0 +1,3826 @@
+[
+  {
+    "bio_guide_id": "F000246",
+    "name": "pat fallon",
+    "ff5": {
+      "alpha_daily": 0.0022408427886819217,
+      "alpha_se": 0.00121122624291813,
+      "alpha_tstat": 1.850061292664203,
+      "alpha_pvalue": 0.06430471599578236,
+      "alpha_annualized": 0.7577957914180742
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0020406240817032765,
+      "alpha_se": 0.001248993057255026,
+      "alpha_tstat": 1.6338153922072693,
+      "alpha_pvalue": 0.1022976193656319,
+      "alpha_annualized": 0.6714864139862489
+    },
+    "disclosure": {
+      "alpha_daily": 0.002605691442618454,
+      "alpha_se": 0.002152855018325973,
+      "alpha_tstat": 1.210342275925575,
+      "alpha_pvalue": 0.22614758185980965,
+      "alpha_annualized": 0.9266451644382236
+    },
+    "conflicted": {
+      "alpha_daily": 0.0026805326786199573,
+      "alpha_se": 0.0017460227423539037,
+      "alpha_tstat": 1.5352220870881628,
+      "alpha_pvalue": 0.12472928471618513,
+      "alpha_annualized": 0.9632288837389389
+    }
+  },
+  {
+    "bio_guide_id": "B001297",
+    "name": "ken buck",
+    "ff5": {
+      "alpha_daily": 0.0019064054524393173,
+      "alpha_se": 0.017887750615405318,
+      "alpha_tstat": 0.1065760303476883,
+      "alpha_pvalue": 0.9151253352696697,
+      "alpha_annualized": 0.6160046265942338
+    },
+    "uncertainty": {
+      "alpha_daily": -0.018134458424977146,
+      "alpha_se": 0.03439671072857833,
+      "alpha_tstat": -0.5272149005198403,
+      "alpha_pvalue": 0.598044362356267,
+      "alpha_annualized": -0.9900663526937716
+    },
+    "disclosure": null,
+    "conflicted": {
+      "alpha_daily": 0.0019064054524393173,
+      "alpha_se": 0.017887750615405436,
+      "alpha_tstat": 0.1065760303476876,
+      "alpha_pvalue": 0.9151253352696702,
+      "alpha_annualized": 0.6160046265942338
+    }
+  },
+  {
+    "bio_guide_id": "S001189",
+    "name": "austin scott",
+    "ff5": {
+      "alpha_daily": 0.0013070208806539947,
+      "alpha_se": 0.0018936010950183066,
+      "alpha_tstat": 0.6902303151875601,
+      "alpha_pvalue": 0.4900493620857107,
+      "alpha_annualized": 0.3897921492447556
+    },
+    "uncertainty": {
+      "alpha_daily": 0.001167307590890072,
+      "alpha_se": 0.0020999691623381955,
+      "alpha_tstat": 0.5558689202799253,
+      "alpha_pvalue": 0.5783004661929569,
+      "alpha_annualized": 0.3417704294236432
+    },
+    "disclosure": {
+      "alpha_daily": 0.00011749818298777555,
+      "alpha_se": 0.002911795966289689,
+      "alpha_tstat": 0.04035247810906744,
+      "alpha_pvalue": 0.9678121163394144,
+      "alpha_annualized": 0.030050471724676342
+    },
+    "conflicted": {
+      "alpha_daily": -0.003682226990773115,
+      "alpha_se": 0.007711695562734675,
+      "alpha_tstat": -0.4774860419240079,
+      "alpha_pvalue": 0.6330160578653619,
+      "alpha_annualized": -0.6053017836673977
+    }
+  },
+  {
+    "bio_guide_id": "G000061",
+    "name": "mike garcia",
+    "ff5": {
+      "alpha_daily": 0.001143246229114168,
+      "alpha_se": 0.0007158343144419101,
+      "alpha_tstat": 1.5970821823559598,
+      "alpha_pvalue": 0.110247389316101,
+      "alpha_annualized": 0.33366860106303764
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0008611627672851927,
+      "alpha_se": 0.0007755752325141783,
+      "alpha_tstat": 1.1103536203619677,
+      "alpha_pvalue": 0.2668466756045952,
+      "alpha_annualized": 0.24224425796281723
+    },
+    "disclosure": {
+      "alpha_daily": 0.002047391574625806,
+      "alpha_se": 0.0011748381803472216,
+      "alpha_tstat": 1.7427009173473598,
+      "alpha_pvalue": 0.08138587134311424,
+      "alpha_annualized": 0.6743335881126049
+    },
+    "conflicted": {
+      "alpha_daily": 0.003500500337159368,
+      "alpha_se": 0.0016146432765311606,
+      "alpha_tstat": 2.167971333383131,
+      "alpha_pvalue": 0.03016086770708696,
+      "alpha_annualized": 1.4123122738304748
+    }
+  },
+  {
+    "bio_guide_id": "N000192",
+    "name": "marie newman",
+    "ff5": {
+      "alpha_daily": 0.0010733309597109482,
+      "alpha_se": 0.0008840467731488355,
+      "alpha_tstat": 1.2141110542012525,
+      "alpha_pvalue": 0.2247053193533669,
+      "alpha_annualized": 0.3104025088373432
+    },
+    "uncertainty": {
+      "alpha_daily": 0.001299825097515483,
+      "alpha_se": 0.0009367153793419232,
+      "alpha_tstat": 1.387641460983226,
+      "alpha_pvalue": 0.1652462496875119,
+      "alpha_annualized": 0.3872775454236328
+    },
+    "disclosure": {
+      "alpha_daily": 0.004661019474350834,
+      "alpha_se": 0.00588795621451894,
+      "alpha_tstat": 0.7916192486040169,
+      "alpha_pvalue": 0.4285827199005139,
+      "alpha_annualized": 2.2279524535852344
+    },
+    "conflicted": {
+      "alpha_daily": 0.0015275743809308733,
+      "alpha_se": 0.004261464926555138,
+      "alpha_tstat": 0.35846226761409167,
+      "alpha_pvalue": 0.7199974003604652,
+      "alpha_annualized": 0.46910742743859424
+    }
+  },
+  {
+    "bio_guide_id": "M001203",
+    "name": "tom malinowski",
+    "ff5": {
+      "alpha_daily": 0.0010099529895195494,
+      "alpha_se": 0.0009105001154700982,
+      "alpha_tstat": 1.1092288428740098,
+      "alpha_pvalue": 0.26733147291033466,
+      "alpha_annualized": 0.28966142049543575
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0010834580070388116,
+      "alpha_se": 0.0008364404580936702,
+      "alpha_tstat": 1.2953199436432314,
+      "alpha_pvalue": 0.19520988205294365,
+      "alpha_annualized": 0.3137473360798353
+    },
+    "disclosure": {
+      "alpha_daily": 0.004219242051620645,
+      "alpha_se": 0.002737306556116717,
+      "alpha_tstat": 1.5413845563597661,
+      "alpha_pvalue": 0.1232232204414035,
+      "alpha_annualized": 1.889294151306867
+    },
+    "conflicted": {
+      "alpha_daily": -0.00042019451618235547,
+      "alpha_se": 0.0016769604670131583,
+      "alpha_tstat": -0.2505691245845323,
+      "alpha_pvalue": 0.8021472553044908,
+      "alpha_annualized": -0.10049554360760016
+    }
+  },
+  {
+    "bio_guide_id": "L000594",
+    "name": "kelly   loeffler",
+    "ff5": {
+      "alpha_daily": 0.000969495503104227,
+      "alpha_se": 0.0011252522631008525,
+      "alpha_tstat": 0.8615805849904205,
+      "alpha_pvalue": 0.3889183586328999,
+      "alpha_annualized": 0.2765926204039415
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0012102355725186198,
+      "alpha_se": 0.0018816133352283103,
+      "alpha_tstat": -0.6431903674682306,
+      "alpha_pvalue": 0.5201005828355466,
+      "alpha_annualized": -0.2629975494362883
+    },
+    "disclosure": {
+      "alpha_daily": -0.0005182238444403503,
+      "alpha_se": 0.0013225697322672486,
+      "alpha_tstat": -0.39183101790177216,
+      "alpha_pvalue": 0.6951830749803052,
+      "alpha_annualized": -0.12245431168706311
+    },
+    "conflicted": {
+      "alpha_daily": 0.0021581573624547957,
+      "alpha_se": 0.004380590832002097,
+      "alpha_tstat": 0.4926635344914046,
+      "alpha_pvalue": 0.6222503475667995,
+      "alpha_annualized": 0.7216267612876868
+    }
+  },
+  {
+    "bio_guide_id": "B001248",
+    "name": "michael c. burgess",
+    "ff5": {
+      "alpha_daily": 0.0008552528119984182,
+      "alpha_se": 0.0005425685502790544,
+      "alpha_tstat": 1.5763036975853901,
+      "alpha_pvalue": 0.11495582991174354,
+      "alpha_annualized": 0.24039713376843141
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0008083272603380987,
+      "alpha_se": 0.0005461689312370744,
+      "alpha_tstat": 1.4799949504766499,
+      "alpha_pvalue": 0.13887459424106485,
+      "alpha_annualized": 0.22582757389776376
+    },
+    "disclosure": {
+      "alpha_daily": -0.00026143523711896505,
+      "alpha_se": 0.002018289991729956,
+      "alpha_tstat": -0.12953303944934028,
+      "alpha_pvalue": 0.8969358834631452,
+      "alpha_annualized": -0.06376643010785066
+    },
+    "conflicted": {
+      "alpha_daily": 0.00048758409885965397,
+      "alpha_se": 0.000815230529282535,
+      "alpha_tstat": 0.598093522440536,
+      "alpha_pvalue": 0.5497775321565375,
+      "alpha_annualized": 0.1307049046108606
+    }
+  },
+  {
+    "bio_guide_id": "J000310",
+    "name": "julie johnson",
+    "ff5": {
+      "alpha_daily": 0.000767638765877356,
+      "alpha_se": 0.0006846071767509725,
+      "alpha_tstat": 1.1212835505470993,
+      "alpha_pvalue": 0.26216718516299986,
+      "alpha_annualized": 0.21333256416164992
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0014269410933637687,
+      "alpha_se": 0.001162480149973867,
+      "alpha_tstat": 1.2274971692169083,
+      "alpha_pvalue": 0.2196357851224645,
+      "alpha_annualized": 0.4323734778035715
+    },
+    "disclosure": {
+      "alpha_daily": -0.0003264732165399509,
+      "alpha_se": 0.000435676821312208,
+      "alpha_tstat": -0.7493472238358962,
+      "alpha_pvalue": 0.4536479516569438,
+      "alpha_annualized": -0.07899027459833219
+    },
+    "conflicted": {
+      "alpha_daily": 0.001714366659685245,
+      "alpha_se": 0.0013041900581569673,
+      "alpha_tstat": 1.3145067691344956,
+      "alpha_pvalue": 0.18867572163256108,
+      "alpha_annualized": 0.5397968624998248
+    }
+  },
+  {
+    "bio_guide_id": "M001199",
+    "name": "brian j. mast",
+    "ff5": {
+      "alpha_daily": 0.0006741616171812442,
+      "alpha_se": 0.0012182627859533912,
+      "alpha_tstat": 0.553379471945092,
+      "alpha_pvalue": 0.5800035925620861,
+      "alpha_annualized": 0.18510512890175645
+    },
+    "uncertainty": {
+      "alpha_daily": 3.6798352805030195e-05,
+      "alpha_se": 0.001157318711842607,
+      "alpha_tstat": 0.03179621346175443,
+      "alpha_pvalue": 0.974634566331024,
+      "alpha_annualized": 0.009316141893687124
+    },
+    "disclosure": {
+      "alpha_daily": -0.0004819637845948903,
+      "alpha_se": 0.0019231137765626616,
+      "alpha_tstat": -0.2506163652242893,
+      "alpha_pvalue": 0.8021107278257593,
+      "alpha_annualized": -0.11439491129510815
+    },
+    "conflicted": {
+      "alpha_daily": 0.0012744934405054822,
+      "alpha_se": 0.0012523233876129253,
+      "alpha_tstat": 1.017703137314089,
+      "alpha_pvalue": 0.30881905587584524,
+      "alpha_annualized": 0.3784612691492437
+    }
+  },
+  {
+    "bio_guide_id": "W000797",
+    "name": "debbie wasserman schultz",
+    "ff5": {
+      "alpha_daily": 0.0006546851756035281,
+      "alpha_se": 0.00042033450595588056,
+      "alpha_tstat": 1.5575337411681487,
+      "alpha_pvalue": 0.11934381612794635,
+      "alpha_annualized": 0.1793066518605202
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0005279782707462414,
+      "alpha_se": 0.0004046189522671681,
+      "alpha_tstat": 1.3048777566840708,
+      "alpha_pvalue": 0.19193447646832174,
+      "alpha_annualized": 0.14226760361555546
+    },
+    "disclosure": {
+      "alpha_daily": 0.00102041820345728,
+      "alpha_se": 0.0007457055521008175,
+      "alpha_tstat": 1.3683929274531164,
+      "alpha_pvalue": 0.1711891168736981,
+      "alpha_annualized": 0.2930635896839513
+    },
+    "conflicted": {
+      "alpha_daily": 0.0007380841993918605,
+      "alpha_se": 0.0004801470435141875,
+      "alpha_tstat": 1.5372045071647962,
+      "alpha_pvalue": 0.12424323697052489,
+      "alpha_annualized": 0.20433628118584002
+    }
+  },
+  {
+    "bio_guide_id": "T000461",
+    "name": "patrick j. toomey",
+    "ff5": {
+      "alpha_daily": 0.0006186686721854392,
+      "alpha_se": 0.0015254204226004817,
+      "alpha_tstat": 0.40557256413989473,
+      "alpha_pvalue": 0.6850566910607301,
+      "alpha_annualized": 0.16865825326082162
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0006192265153092088,
+      "alpha_se": 0.0015262489423911079,
+      "alpha_tstat": 0.4057178996888237,
+      "alpha_pvalue": 0.684949888722586,
+      "alpha_annualized": 0.16882244902158372
+    },
+    "disclosure": {
+      "alpha_daily": 0.003202835166142916,
+      "alpha_se": 0.003948205786605526,
+      "alpha_tstat": 0.811212824065221,
+      "alpha_pvalue": 0.4172434623635961,
+      "alpha_annualized": 1.2385418359421112
+    },
+    "conflicted": {
+      "alpha_daily": 0.0010042218678681938,
+      "alpha_se": 0.0024664304650755856,
+      "alpha_tstat": 0.40715596165709,
+      "alpha_pvalue": 0.6838934437861626,
+      "alpha_annualized": 0.2878020520191251
+    }
+  },
+  {
+    "bio_guide_id": "M001198",
+    "name": "roger marshall",
+    "ff5": {
+      "alpha_daily": 0.0005375671244596231,
+      "alpha_se": 0.0007376336033273078,
+      "alpha_tstat": 0.7287725532497062,
+      "alpha_pvalue": 0.46614080339639563,
+      "alpha_annualized": 0.14502963312233308
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0005612288421076694,
+      "alpha_se": 0.0007613008125595478,
+      "alpha_tstat": 0.7371972193498361,
+      "alpha_pvalue": 0.46100242418834847,
+      "alpha_annualized": 0.15187378639384397
+    },
+    "disclosure": {
+      "alpha_daily": 0.0011988724976897207,
+      "alpha_se": 0.0018669931346817388,
+      "alpha_tstat": 0.6421408174562405,
+      "alpha_pvalue": 0.5207817555411192,
+      "alpha_annualized": 0.3524731978934885
+    },
+    "conflicted": {
+      "alpha_daily": 0.00309222990211644,
+      "alpha_se": 0.01380876150576577,
+      "alpha_tstat": 0.22393245772441625,
+      "alpha_pvalue": 0.8228098593732183,
+      "alpha_annualized": 1.1771999304972889
+    }
+  },
+  {
+    "bio_guide_id": "B001274",
+    "name": "mo brooks",
+    "ff5": {
+      "alpha_daily": 0.0005152208878676547,
+      "alpha_se": 0.0005643624342636671,
+      "alpha_tstat": 0.9129255538417821,
+      "alpha_pvalue": 0.36128169678155697,
+      "alpha_annualized": 0.1386031774599068
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0004939838744418825,
+      "alpha_se": 0.0005698836536617905,
+      "alpha_tstat": 0.8668153074189556,
+      "alpha_pvalue": 0.38604321355785576,
+      "alpha_annualized": 0.1325290168081963
+    },
+    "disclosure": {
+      "alpha_daily": -0.00015003542059759383,
+      "alpha_se": 0.002088220634267316,
+      "alpha_tstat": -0.07184845228302997,
+      "alpha_pvalue": 0.9427225130813202,
+      "alpha_annualized": -0.037105823483609024
+    },
+    "conflicted": {
+      "alpha_daily": -0.0024183781217796585,
+      "alpha_se": 0.004828995721475628,
+      "alpha_tstat": -0.5008035337502139,
+      "alpha_pvalue": 0.6165093984113422,
+      "alpha_annualized": -0.45674116382795205
+    }
+  },
+  {
+    "bio_guide_id": "R000307",
+    "name": "pat roberts",
+    "ff5": {
+      "alpha_daily": 0.00047390031610672226,
+      "alpha_se": 0.0002469202909420379,
+      "alpha_tstat": 1.9192441184105264,
+      "alpha_pvalue": 0.05495344647927593,
+      "alpha_annualized": 0.12681446178822275
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0004964019473241673,
+      "alpha_se": 0.00025320244939348613,
+      "alpha_tstat": 1.96049425474846,
+      "alpha_pvalue": 0.04993804884303318,
+      "alpha_annualized": 0.13321899683622873
+    },
+    "disclosure": {
+      "alpha_daily": 0.0011354161490376375,
+      "alpha_se": 0.0015420010557167542,
+      "alpha_tstat": 0.7363264407817622,
+      "alpha_pvalue": 0.46153205879802306,
+      "alpha_annualized": 0.331042616102013
+    },
+    "conflicted": {
+      "alpha_daily": 6.629273678724754e-05,
+      "alpha_se": 0.000612272940529644,
+      "alpha_tstat": 0.10827317753076152,
+      "alpha_pvalue": 0.9137789987430005,
+      "alpha_annualized": 0.01684552830650099
+    }
+  },
+  {
+    "bio_guide_id": "G000590",
+    "name": "mark e. green",
+    "ff5": {
+      "alpha_daily": 0.00034448793197175507,
+      "alpha_se": 0.000643420881024324,
+      "alpha_tstat": 0.5354006096652184,
+      "alpha_pvalue": 0.5923728686406122,
+      "alpha_annualized": 0.09067416999247535
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00043702987888894553,
+      "alpha_se": 0.000663307589095583,
+      "alpha_tstat": 0.6588645842041908,
+      "alpha_pvalue": 0.5099827299239161,
+      "alpha_annualized": 0.1163980445430679
+    },
+    "disclosure": {
+      "alpha_daily": 0.0017223310137986412,
+      "alpha_se": 0.005775971623890421,
+      "alpha_tstat": 0.2981889673201962,
+      "alpha_pvalue": 0.7655589417968114,
+      "alpha_annualized": 0.5428850527462294
+    },
+    "conflicted": {
+      "alpha_daily": 0.0004410099354757795,
+      "alpha_se": 0.0006705311760462038,
+      "alpha_tstat": 0.6577023578175747,
+      "alpha_pvalue": 0.5107294069981322,
+      "alpha_annualized": 0.11751783290174345
+    }
+  },
+  {
+    "bio_guide_id": "P000197",
+    "name": "nancy pelosi",
+    "ff5": {
+      "alpha_daily": 0.00028296046863602204,
+      "alpha_se": 0.00018732343932440277,
+      "alpha_tstat": 1.5105449144887688,
+      "alpha_pvalue": 0.1309044377764373,
+      "alpha_annualized": 0.07389900097486968
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0003144507264268263,
+      "alpha_se": 0.00018288281815271706,
+      "alpha_tstat": 1.7194109846024077,
+      "alpha_pvalue": 0.0855395634904151,
+      "alpha_annualized": 0.08245231258408303
+    },
+    "disclosure": {
+      "alpha_daily": 0.00192298446806649,
+      "alpha_se": 0.0014425856406431706,
+      "alpha_tstat": 1.333012345256075,
+      "alpha_pvalue": 0.18252775254152664,
+      "alpha_annualized": 0.622757318543073
+    },
+    "conflicted": {
+      "alpha_daily": 0.00028296046863602204,
+      "alpha_se": 0.00018732343932440277,
+      "alpha_tstat": 1.5105449144887688,
+      "alpha_pvalue": 0.1309044377764373,
+      "alpha_annualized": 0.07389900097486968
+    }
+  },
+  {
+    "bio_guide_id": "L000579",
+    "name": "alan s. lowenthal",
+    "ff5": {
+      "alpha_daily": 0.0002548848145390044,
+      "alpha_se": 0.0001343776427819893,
+      "alpha_tstat": 1.8967799200981874,
+      "alpha_pvalue": 0.057856990564576403,
+      "alpha_annualized": 0.06632993877893201
+    },
+    "uncertainty": {
+      "alpha_daily": 0.000255108348429459,
+      "alpha_se": 0.00013437906803433208,
+      "alpha_tstat": 1.898423260118772,
+      "alpha_pvalue": 0.0576403479430901,
+      "alpha_annualized": 0.06638999209864771
+    },
+    "disclosure": {
+      "alpha_daily": 8.801112780010544e-05,
+      "alpha_se": 0.00012737204491293418,
+      "alpha_tstat": 0.6909767984039661,
+      "alpha_pvalue": 0.4895801217253699,
+      "alpha_annualized": 0.0224255844804091
+    },
+    "conflicted": {
+      "alpha_daily": 0.0003520984876333369,
+      "alpha_se": 0.0002124503328388377,
+      "alpha_tstat": 1.6573214215693162,
+      "alpha_pvalue": 0.09745450861590564,
+      "alpha_annualized": 0.09276720782986225
+    }
+  },
+  {
+    "bio_guide_id": "G000551",
+    "name": "ra\u00fal m. grijalva",
+    "ff5": {
+      "alpha_daily": 0.00023637145263873122,
+      "alpha_se": 0.0002268364266834896,
+      "alpha_tstat": 1.0420348093763003,
+      "alpha_pvalue": 0.297395540647896,
+      "alpha_annualized": 0.06136792068664865
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0001862054680997915,
+      "alpha_se": 0.000331816658813515,
+      "alpha_tstat": 0.5611697398364838,
+      "alpha_pvalue": 0.5746818294568037,
+      "alpha_annualized": 0.04803754409091199
+    },
+    "disclosure": {
+      "alpha_daily": 0.0003229984210041854,
+      "alpha_se": 0.00020207762364441546,
+      "alpha_tstat": 1.5983878629360142,
+      "alpha_pvalue": 0.10995668406895051,
+      "alpha_annualized": 0.08478570394190044
+    },
+    "conflicted": {
+      "alpha_daily": 0.00023637145263873122,
+      "alpha_se": 0.0002268364266834896,
+      "alpha_tstat": 1.0420348093763003,
+      "alpha_pvalue": 0.297395540647896,
+      "alpha_annualized": 0.06136792068664865
+    }
+  },
+  {
+    "bio_guide_id": "M000934",
+    "name": "jerry moran",
+    "ff5": {
+      "alpha_daily": 0.00022465685268917813,
+      "alpha_se": 0.00015343248424694092,
+      "alpha_tstat": 1.4642065778430962,
+      "alpha_pvalue": 0.1431375135047884,
+      "alpha_annualized": 0.05824001874171336
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00011470733910567992,
+      "alpha_se": 0.0001435760707723661,
+      "alpha_tstat": 0.7989307583681103,
+      "alpha_pvalue": 0.42433056261978297,
+      "alpha_annualized": 0.029326383511717014
+    },
+    "disclosure": {
+      "alpha_daily": 0.00031714238230612477,
+      "alpha_se": 0.0003421215614239118,
+      "alpha_tstat": 0.9269874163621155,
+      "alpha_pvalue": 0.35393306781277045,
+      "alpha_annualized": 0.08318655416308207
+    },
+    "conflicted": {
+      "alpha_daily": -0.0021058956942959445,
+      "alpha_se": 0.0009777355038782876,
+      "alpha_tstat": -2.1538500810727386,
+      "alpha_pvalue": 0.031251930774765756,
+      "alpha_annualized": -0.4121275551121827
+    }
+  },
+  {
+    "bio_guide_id": "I000024",
+    "name": "james m. inhofe",
+    "ff5": {
+      "alpha_daily": 0.00022271523792172118,
+      "alpha_se": 0.0002707698106335866,
+      "alpha_tstat": 0.8225261058482837,
+      "alpha_pvalue": 0.4107775351264169,
+      "alpha_annualized": 0.05772247813071574
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00024009491296619648,
+      "alpha_se": 0.0003131680160593105,
+      "alpha_tstat": 0.7666648592898618,
+      "alpha_pvalue": 0.44328080195554487,
+      "alpha_annualized": 0.06236404490044678
+    },
+    "disclosure": {
+      "alpha_daily": -0.00011858613953350257,
+      "alpha_se": 0.0006973370770728211,
+      "alpha_tstat": -0.17005569247986355,
+      "alpha_pvalue": 0.8649663381731735,
+      "alpha_annualized": -0.029443323887985207
+    },
+    "conflicted": {
+      "alpha_daily": 0.0003367581120785471,
+      "alpha_se": 0.0006907344775049788,
+      "alpha_tstat": 0.4875362719622168,
+      "alpha_pvalue": 0.6258783447441589,
+      "alpha_annualized": 0.08855241972043326
+    }
+  },
+  {
+    "bio_guide_id": "B001292",
+    "name": "donald s. beyer, jr.",
+    "ff5": {
+      "alpha_daily": 0.00019724360602555707,
+      "alpha_se": 0.00024970210787852103,
+      "alpha_tstat": 0.7899156627124477,
+      "alpha_pvalue": 0.4295770235814902,
+      "alpha_annualized": 0.050956274509761146
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00013270349352524104,
+      "alpha_se": 0.0002895185758655254,
+      "alpha_tstat": 0.4583591678997437,
+      "alpha_pvalue": 0.6466944219792576,
+      "alpha_annualized": 0.03400443131062869
+    },
+    "disclosure": {
+      "alpha_daily": -0.0008608558179090382,
+      "alpha_se": 0.0008615349322115578,
+      "alpha_tstat": -0.9992117390982902,
+      "alpha_pvalue": 0.3176921303356719,
+      "alpha_annualized": -0.19509344971225573
+    },
+    "conflicted": {
+      "alpha_daily": 0.0011978768867938504,
+      "alpha_se": 0.0014308797149303442,
+      "alpha_tstat": 0.8371611354153298,
+      "alpha_pvalue": 0.4025019999608742,
+      "alpha_annualized": 0.3521343191731514
+    }
+  },
+  {
+    "bio_guide_id": "H001086",
+    "name": "diana harshbarger",
+    "ff5": {
+      "alpha_daily": 0.00018651440052203924,
+      "alpha_se": 0.0004734881732660722,
+      "alpha_tstat": 0.3939156478513123,
+      "alpha_pvalue": 0.693643317192123,
+      "alpha_annualized": 0.04811912280314612
+    },
+    "uncertainty": {
+      "alpha_daily": 0.000396667006336006,
+      "alpha_se": 0.0005007576028522897,
+      "alpha_tstat": 0.7921337670693586,
+      "alpha_pvalue": 0.42828268287485116,
+      "alpha_annualized": 0.10510490310893328
+    },
+    "disclosure": {
+      "alpha_daily": -0.0005530017628326754,
+      "alpha_se": 0.0004509516632483894,
+      "alpha_tstat": -1.2262994194304049,
+      "alpha_pvalue": 0.22008601975961617,
+      "alpha_annualized": -0.13011563557806927
+    },
+    "conflicted": {
+      "alpha_daily": 0.0005862640447269122,
+      "alpha_se": 0.0009071479109354014,
+      "alpha_tstat": 0.6462717244450122,
+      "alpha_pvalue": 0.5181033963514092,
+      "alpha_annualized": 0.1591595878264398
+    }
+  },
+  {
+    "bio_guide_id": "J000307",
+    "name": "john james",
+    "ff5": {
+      "alpha_daily": 0.00015291641511583327,
+      "alpha_se": 0.0001601983274970416,
+      "alpha_tstat": 0.954544391973488,
+      "alpha_pvalue": 0.3398081498650536,
+      "alpha_annualized": 0.03928397514132409
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00015121741201407015,
+      "alpha_se": 0.00016014845099839758,
+      "alpha_tstat": 0.9442327482492054,
+      "alpha_pvalue": 0.34505072385470037,
+      "alpha_annualized": 0.03883916984197122
+    },
+    "disclosure": {
+      "alpha_daily": -0.0005402749714586048,
+      "alpha_se": 0.005994477301633721,
+      "alpha_tstat": -0.09012878759443455,
+      "alpha_pvalue": 0.9281848731166431,
+      "alpha_annualized": -0.12731977539784445
+    },
+    "conflicted": {
+      "alpha_daily": 0.0022671562550702464,
+      "alpha_se": 0.005716953911448931,
+      "alpha_tstat": 0.396567173740893,
+      "alpha_pvalue": 0.6916866633410453,
+      "alpha_annualized": 0.769464067122517
+    }
+  },
+  {
+    "bio_guide_id": "L000601",
+    "name": "greg landsman",
+    "ff5": {
+      "alpha_daily": 0.0001305828339533981,
+      "alpha_se": 0.00020911086397469957,
+      "alpha_tstat": 0.6244670002855394,
+      "alpha_pvalue": 0.5323209357591365,
+      "alpha_annualized": 0.03345207323832389
+    },
+    "uncertainty": {
+      "alpha_daily": 9.421048589666427e-05,
+      "alpha_se": 0.00021357124371294335,
+      "alpha_tstat": 0.44111971377237763,
+      "alpha_pvalue": 0.6591263324003207,
+      "alpha_annualized": 0.02402395939333335
+    },
+    "disclosure": {
+      "alpha_daily": -0.00041601584820981645,
+      "alpha_se": 0.0005616196497236706,
+      "alpha_tstat": -0.7407430427594647,
+      "alpha_pvalue": 0.458849255880869,
+      "alpha_annualized": -0.09954744803102089
+    },
+    "conflicted": {
+      "alpha_daily": 0.00047711142705187846,
+      "alpha_se": 0.0005364164251285605,
+      "alpha_tstat": 0.889442240583016,
+      "alpha_pvalue": 0.37376545200400735,
+      "alpha_annualized": 0.12772621530515038
+    }
+  },
+  {
+    "bio_guide_id": "D000617",
+    "name": "suzan k. delbene",
+    "ff5": {
+      "alpha_daily": 0.00013034948560125843,
+      "alpha_se": 0.00017924277896126987,
+      "alpha_tstat": 0.7272230789806259,
+      "alpha_pvalue": 0.4670893103887319,
+      "alpha_annualized": 0.03339131205884516
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00013222492852006147,
+      "alpha_se": 0.00017931771499588562,
+      "alpha_tstat": 0.7373779468642868,
+      "alpha_pvalue": 0.4608925426777818,
+      "alpha_annualized": 0.03387975608292226
+    },
+    "disclosure": {
+      "alpha_daily": 0.0004168447921830721,
+      "alpha_se": 0.00037267633198034464,
+      "alpha_tstat": 1.1185169446313457,
+      "alpha_pvalue": 0.26334627370016817,
+      "alpha_annualized": 0.1107361569993488
+    },
+    "conflicted": {
+      "alpha_daily": 0.0003875086696571824,
+      "alpha_se": 0.00019251295366308523,
+      "alpha_tstat": 2.0128965988198226,
+      "alpha_pvalue": 0.04412550846594524,
+      "alpha_annualized": 0.10255836874080404
+    }
+  },
+  {
+    "bio_guide_id": "P000612",
+    "name": "david perdue",
+    "ff5": {
+      "alpha_daily": 0.00011164574659351518,
+      "alpha_se": 0.00021769915354943046,
+      "alpha_tstat": 0.5128441924243176,
+      "alpha_pvalue": 0.6080603139328642,
+      "alpha_annualized": 0.028532632340088515
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00023277366371807188,
+      "alpha_se": 0.00027909175874226853,
+      "alpha_tstat": 0.834039904177286,
+      "alpha_pvalue": 0.4042584977992366,
+      "alpha_annualized": 0.060406300653145895
+    },
+    "disclosure": {
+      "alpha_daily": 0.0007358479588401186,
+      "alpha_se": 0.0005377251681628638,
+      "alpha_tstat": 1.3684461922326243,
+      "alpha_pvalue": 0.17117245375331502,
+      "alpha_annualized": 0.20365828911754402
+    },
+    "conflicted": {
+      "alpha_daily": 8.650492375362302e-05,
+      "alpha_se": 0.0009758640590489648,
+      "alpha_tstat": 0.08864444074098496,
+      "alpha_pvalue": 0.929364488476438,
+      "alpha_annualized": 0.0220376166163605
+    }
+  },
+  {
+    "bio_guide_id": "S001190",
+    "name": "bradley scott schneider",
+    "ff5": {
+      "alpha_daily": 0.00011037826306260125,
+      "alpha_se": 0.0002402520039028389,
+      "alpha_tstat": 0.4594270235816209,
+      "alpha_pvalue": 0.6459275460292645,
+      "alpha_annualized": 0.02820420191446038
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0004403614188078218,
+      "alpha_se": 0.00034739651567194794,
+      "alpha_tstat": 1.2676045928556812,
+      "alpha_pvalue": 0.2049391909494085,
+      "alpha_annualized": 0.1173352965656913
+    },
+    "disclosure": {
+      "alpha_daily": 0.0002492736097596904,
+      "alpha_se": 0.0005202439270270354,
+      "alpha_tstat": 0.4791475629214532,
+      "alpha_pvalue": 0.6318336552025118,
+      "alpha_annualized": 0.06482356807298228
+    },
+    "conflicted": {
+      "alpha_daily": -0.0005128843039713658,
+      "alpha_se": 0.0007093516158432529,
+      "alpha_tstat": -0.7230325448144169,
+      "alpha_pvalue": 0.46965988983862716,
+      "alpha_annualized": -0.12127211295553686
+    }
+  },
+  {
+    "bio_guide_id": "E000296",
+    "name": "dwight evans",
+    "ff5": {
+      "alpha_daily": 0.00010938992513936336,
+      "alpha_se": 0.00023820500080292618,
+      "alpha_tstat": 0.4592259808595067,
+      "alpha_pvalue": 0.6460718952722088,
+      "alpha_annualized": 0.027948176204148467
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00013413099358265416,
+      "alpha_se": 0.00026558114144395906,
+      "alpha_tstat": 0.5050471311832865,
+      "alpha_pvalue": 0.6135257331372332,
+      "alpha_annualized": 0.03437641101329958
+    },
+    "disclosure": {
+      "alpha_daily": 0.0002745551461498039,
+      "alpha_se": 0.0002908645442275163,
+      "alpha_tstat": 0.9439278578245857,
+      "alpha_pvalue": 0.3452065151539374,
+      "alpha_annualized": 0.07162737108494754
+    },
+    "conflicted": {
+      "alpha_daily": 0.0001756900255176957,
+      "alpha_se": 0.0006538873437836928,
+      "alpha_tstat": 0.2686854657578665,
+      "alpha_pvalue": 0.7881717372819567,
+      "alpha_annualized": 0.045264535756540214
+    }
+  },
+  {
+    "bio_guide_id": "L000397",
+    "name": "zoe lofgren",
+    "ff5": {
+      "alpha_daily": 0.0001085979640793348,
+      "alpha_se": 0.0002574624186706781,
+      "alpha_tstat": 0.42180122691321087,
+      "alpha_pvalue": 0.6731701100967649,
+      "alpha_annualized": 0.027743067106035246
+    },
+    "uncertainty": {
+      "alpha_daily": 7.056131335000126e-05,
+      "alpha_se": 0.0002620451296978183,
+      "alpha_tstat": 0.2692716076477751,
+      "alpha_pvalue": 0.7877206793422399,
+      "alpha_annualized": 0.01793984360102785
+    },
+    "disclosure": {
+      "alpha_daily": 0.0005768791677129258,
+      "alpha_se": 0.0014699554929212297,
+      "alpha_tstat": 0.39244669004671623,
+      "alpha_pvalue": 0.6947281935541163,
+      "alpha_annualized": 0.1564230169100298
+    },
+    "conflicted": {
+      "alpha_daily": 0.0005980881113358447,
+      "alpha_se": 0.00108375279476325,
+      "alpha_tstat": 0.5518676530532034,
+      "alpha_pvalue": 0.5810390317474281,
+      "alpha_annualized": 0.16261659547958351
+    }
+  },
+  {
+    "bio_guide_id": "C001123",
+    "name": "gilbert ray cisneros, jr.",
+    "ff5": {
+      "alpha_daily": 0.00010561306581227786,
+      "alpha_se": 9.782669995850843e-05,
+      "alpha_tstat": 1.0795934633088093,
+      "alpha_pvalue": 0.2803232535539757,
+      "alpha_annualized": 0.02697037796595758
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0001793865332151141,
+      "alpha_se": 0.0001065769460855807,
+      "alpha_tstat": 1.683164509809351,
+      "alpha_pvalue": 0.0923432491135157,
+      "alpha_annualized": 0.04623850116147099
+    },
+    "disclosure": {
+      "alpha_daily": 0.0012772478027992715,
+      "alpha_se": 0.0018024448965823037,
+      "alpha_tstat": 0.708619611740208,
+      "alpha_pvalue": 0.47856056267491065,
+      "alpha_annualized": 0.37941717024921484
+    },
+    "conflicted": {
+      "alpha_daily": 0.0020969531501810537,
+      "alpha_se": 0.0027364651262478507,
+      "alpha_tstat": 0.7662999722040403,
+      "alpha_pvalue": 0.44349783485448147,
+      "alpha_annualized": 0.6953325535884072
+    }
+  },
+  {
+    "bio_guide_id": "A000378",
+    "name": "cynthia axne",
+    "ff5": {
+      "alpha_daily": 0.0001048883818172907,
+      "alpha_se": 0.0002694794867852608,
+      "alpha_tstat": 0.38922584820295714,
+      "alpha_pvalue": 0.6971090839986125,
+      "alpha_annualized": 0.026782869116324104
+    },
+    "uncertainty": {
+      "alpha_daily": 0.00030034039552735784,
+      "alpha_se": 0.00029102857382430646,
+      "alpha_tstat": 1.0319962455256126,
+      "alpha_pvalue": 0.30207387632966654,
+      "alpha_annualized": 0.07861133860329717
+    },
+    "disclosure": {
+      "alpha_daily": -0.00021940325295081292,
+      "alpha_se": 0.0013571700353318256,
+      "alpha_tstat": -0.16166231735080214,
+      "alpha_pvalue": 0.8715717805220831,
+      "alpha_annualized": -0.05379467307490571
+    },
+    "conflicted": {
+      "alpha_daily": -0.0005259913585991756,
+      "alpha_se": 0.0012619740707814125,
+      "alpha_tstat": -0.41680044842243275,
+      "alpha_pvalue": 0.6768243744105215,
+      "alpha_annualized": -0.12417124702419102
+    }
+  },
+  {
+    "bio_guide_id": "J000020",
+    "name": "chris jacobs",
+    "ff5": {
+      "alpha_daily": 9.79859637008348e-05,
+      "alpha_se": 0.0012315067205296154,
+      "alpha_tstat": 0.07956591877849879,
+      "alpha_pvalue": 0.9365825021224633,
+      "alpha_annualized": 0.024998606599440754
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00017339049017297143,
+      "alpha_se": 0.001258460833498998,
+      "alpha_tstat": -0.13777980653627508,
+      "alpha_pvalue": 0.890414444184362,
+      "alpha_annualized": -0.04275718263506778
+    },
+    "disclosure": {
+      "alpha_daily": -0.007586200267125422,
+      "alpha_se": 0.011315185283540991,
+      "alpha_tstat": -0.6704441930933529,
+      "alpha_pvalue": 0.5025746706605221,
+      "alpha_annualized": -0.8532479286396122
+    },
+    "conflicted": {
+      "alpha_daily": 0.0010945470184895918,
+      "alpha_se": 0.0013311857619164624,
+      "alpha_tstat": 0.8222346195423621,
+      "alpha_pvalue": 0.41094337901944467,
+      "alpha_annualized": 0.3174196416766002
+    }
+  },
+  {
+    "bio_guide_id": "P000609",
+    "name": "gary j. palmer",
+    "ff5": {
+      "alpha_daily": 8.529236357387678e-05,
+      "alpha_se": 0.00015722573654772384,
+      "alpha_tstat": 0.5424834727868322,
+      "alpha_pvalue": 0.5874854898556352,
+      "alpha_annualized": 0.021725392047653447
+    },
+    "uncertainty": {
+      "alpha_daily": 2.6452503756648426e-05,
+      "alpha_se": 0.0002116379734719017,
+      "alpha_tstat": 0.12498940205624495,
+      "alpha_pvalue": 0.9005319404764162,
+      "alpha_annualized": 0.006688209627194075
+    },
+    "disclosure": {
+      "alpha_daily": 0.001251928737292084,
+      "alpha_se": 0.0007666927655412758,
+      "alpha_tstat": 1.6328949398762587,
+      "alpha_pvalue": 0.10249109457172477,
+      "alpha_annualized": 0.370654994064737
+    },
+    "conflicted": {
+      "alpha_daily": 0.002517573658878867,
+      "alpha_se": 0.0018741668898251222,
+      "alpha_tstat": 1.3433028149983917,
+      "alpha_pvalue": 0.1791739409737545,
+      "alpha_annualized": 0.884441121304216
+    }
+  },
+  {
+    "bio_guide_id": "S001201",
+    "name": "thomas r. suozzi",
+    "ff5": {
+      "alpha_daily": 7.070482188400351e-05,
+      "alpha_se": 0.000145370164079992,
+      "alpha_tstat": 0.4863778088954841,
+      "alpha_pvalue": 0.6266993212464481,
+      "alpha_annualized": 0.01797665459632869
+    },
+    "uncertainty": {
+      "alpha_daily": 7.831314842754022e-05,
+      "alpha_se": 0.0001394959087438685,
+      "alpha_tstat": 0.5614010413117758,
+      "alpha_pvalue": 0.574524174323245,
+      "alpha_annualized": 0.019930146056256648
+    },
+    "disclosure": {
+      "alpha_daily": 0.0006717763209835106,
+      "alpha_se": 0.00036037652158073583,
+      "alpha_tstat": 1.8640956909092405,
+      "alpha_pvalue": 0.06230826757027808,
+      "alpha_annualized": 0.18439346140010748
+    },
+    "conflicted": {
+      "alpha_daily": 0.0001801087330148218,
+      "alpha_se": 0.00021420785927241066,
+      "alpha_tstat": 0.8408129077363843,
+      "alpha_pvalue": 0.4004527548457715,
+      "alpha_annualized": 0.046428893758992285
+    }
+  },
+  {
+    "bio_guide_id": "M001213",
+    "name": "blake d. moore",
+    "ff5": {
+      "alpha_daily": 6.786981088852456e-05,
+      "alpha_se": 0.0002069615069714215,
+      "alpha_tstat": 0.32793446415084543,
+      "alpha_pvalue": 0.7429612147265208,
+      "alpha_annualized": 0.017249698970618565
+    },
+    "uncertainty": {
+      "alpha_daily": 1.599498503218262e-05,
+      "alpha_se": 0.00019811304123849917,
+      "alpha_tstat": 0.0807366588902494,
+      "alpha_pvalue": 0.9356513823874835,
+      "alpha_annualized": 0.004038838205219886
+    },
+    "disclosure": {
+      "alpha_daily": -0.0073065178967024885,
+      "alpha_se": 0.007771706901702809,
+      "alpha_tstat": -0.9401432644225947,
+      "alpha_pvalue": 0.3471440792016177,
+      "alpha_annualized": -0.842448358400167
+    },
+    "conflicted": {
+      "alpha_daily": 6.786981088852456e-05,
+      "alpha_se": 0.0002069615069714215,
+      "alpha_tstat": 0.32793446415084543,
+      "alpha_pvalue": 0.7429612147265208,
+      "alpha_annualized": 0.017249698970618565
+    }
+  },
+  {
+    "bio_guide_id": "R000122",
+    "name": "jack reed",
+    "ff5": {
+      "alpha_daily": 6.401187863611789e-05,
+      "alpha_se": 0.00015935723417579854,
+      "alpha_tstat": 0.40168793696244587,
+      "alpha_pvalue": 0.6879137034109783,
+      "alpha_annualized": 0.016261275631562988
+    },
+    "uncertainty": {
+      "alpha_daily": -8.012630818446723e-05,
+      "alpha_se": 0.0002340801181863209,
+      "alpha_tstat": -0.34230292091996056,
+      "alpha_pvalue": 0.7321229376295215,
+      "alpha_annualized": -0.019990132660149706
+    },
+    "disclosure": {
+      "alpha_daily": -0.00039797159992338625,
+      "alpha_se": 0.0007340271228381274,
+      "alpha_tstat": -0.5421756056978151,
+      "alpha_pvalue": 0.5876975385928287,
+      "alpha_annualized": -0.09544195672167166
+    },
+    "conflicted": {
+      "alpha_daily": 0.001664373717765118,
+      "alpha_se": 0.0011101832560256996,
+      "alpha_tstat": 1.4991882725049759,
+      "alpha_pvalue": 0.13382479656256938,
+      "alpha_annualized": 0.5205521508829454
+    }
+  },
+  {
+    "bio_guide_id": "C001071",
+    "name": "bob corker",
+    "ff5": {
+      "alpha_daily": 5.31414614531003e-05,
+      "alpha_se": 0.0005275325140599798,
+      "alpha_tstat": 0.1007358978579625,
+      "alpha_pvalue": 0.919760113936134,
+      "alpha_annualized": 0.01348135740954337
+    },
+    "uncertainty": {
+      "alpha_daily": -0.001189759097587441,
+      "alpha_se": 0.000793462544417327,
+      "alpha_tstat": -1.499452124058523,
+      "alpha_pvalue": 0.13375638001148218,
+      "alpha_annualized": -0.25918014251661514
+    },
+    "disclosure": {
+      "alpha_daily": -0.00020493534677394956,
+      "alpha_se": 0.001929523197600776,
+      "alpha_tstat": -0.1062103565423686,
+      "alpha_pvalue": 0.915415454094471,
+      "alpha_annualized": -0.050337860163528925
+    },
+    "conflicted": {
+      "alpha_daily": 2.495471541260675e-05,
+      "alpha_se": 0.0016053323533397974,
+      "alpha_tstat": 0.015544890352885473,
+      "alpha_pvalue": 0.9875974714887105,
+      "alpha_annualized": 0.006308324010311894
+    }
+  },
+  {
+    "bio_guide_id": "B001236",
+    "name": "john boozman",
+    "ff5": {
+      "alpha_daily": 5.211351132985982e-05,
+      "alpha_se": 0.00027327991898111557,
+      "alpha_tstat": 0.19069645338068553,
+      "alpha_pvalue": 0.8487634174949683,
+      "alpha_annualized": 0.013218869534831645
+    },
+    "uncertainty": {
+      "alpha_daily": -5.424026243731805e-06,
+      "alpha_se": 0.00034889616600521767,
+      "alpha_tstat": -0.015546247772899544,
+      "alpha_pvalue": 0.9875963885551001,
+      "alpha_annualized": -0.00136592459499274
+    },
+    "disclosure": {
+      "alpha_daily": -0.001469921210103993,
+      "alpha_se": 0.002634695572923567,
+      "alpha_tstat": -0.5579093179531583,
+      "alpha_pvalue": 0.5769063083880093,
+      "alpha_annualized": -0.30974394514716397
+    },
+    "conflicted": {
+      "alpha_daily": 0.0002528463921164728,
+      "alpha_se": 0.0005190601212260652,
+      "alpha_tstat": 0.4871235176365073,
+      "alpha_pvalue": 0.6261708012599687,
+      "alpha_annualized": 0.06578246341443639
+    }
+  },
+  {
+    "bio_guide_id": "K000375",
+    "name": "william r. keating",
+    "ff5": {
+      "alpha_daily": 4.751704991879345e-05,
+      "alpha_se": 0.00022463797821752055,
+      "alpha_tstat": 0.21152723282072067,
+      "alpha_pvalue": 0.8324758842163698,
+      "alpha_annualized": 0.012045987571286387
+    },
+    "uncertainty": {
+      "alpha_daily": -1.0368227831619605e-06,
+      "alpha_se": 0.0002180501931305376,
+      "alpha_tstat": -0.004754973010004434,
+      "alpha_pvalue": 0.9962060947448417,
+      "alpha_annualized": -0.0002612453463028963
+    },
+    "disclosure": {
+      "alpha_daily": 0.002891888276338568,
+      "alpha_se": 0.007352725202697929,
+      "alpha_tstat": 0.3933083580054712,
+      "alpha_pvalue": 0.6940917458553684,
+      "alpha_annualized": 1.0703219623107465
+    },
+    "conflicted": {
+      "alpha_daily": 0.002689295568797149,
+      "alpha_se": 0.0017143020964293504,
+      "alpha_tstat": 1.56874075718543,
+      "alpha_pvalue": 0.11670835759460312,
+      "alpha_annualized": 0.9675573365035328
+    }
+  },
+  {
+    "bio_guide_id": "W000821",
+    "name": "bruce westerman",
+    "ff5": {
+      "alpha_daily": 4.72426446581466e-05,
+      "alpha_se": 0.000773918263253937,
+      "alpha_tstat": 0.061043454976130215,
+      "alpha_pvalue": 0.951324601495864,
+      "alpha_annualized": 0.011976010199043152
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0004753956915718076,
+      "alpha_se": 0.0023834164801922885,
+      "alpha_tstat": -0.19945976522468864,
+      "alpha_pvalue": 0.8419031136513411,
+      "alpha_annualized": -0.11292717676395014
+    },
+    "disclosure": {
+      "alpha_daily": -0.02985074927757997,
+      "alpha_se": 0.09045735779908903,
+      "alpha_tstat": -0.3299980234209382,
+      "alpha_pvalue": 0.7414014556249935,
+      "alpha_annualized": -0.9995177022299151
+    },
+    "conflicted": {
+      "alpha_daily": 0.0012415334129029787,
+      "alpha_se": 0.012568710391797426,
+      "alpha_tstat": 0.09877969769382437,
+      "alpha_pvalue": 0.9213131885378355,
+      "alpha_annualized": 0.3670735545817614
+    }
+  },
+  {
+    "bio_guide_id": "S001211",
+    "name": "greg stanton",
+    "ff5": {
+      "alpha_daily": 3.6308699007961626e-05,
+      "alpha_se": 0.0002685549146067505,
+      "alpha_tstat": 0.13520027760850725,
+      "alpha_pvalue": 0.8924535276097411,
+      "alpha_annualized": 0.009191611827620516
+    },
+    "uncertainty": {
+      "alpha_daily": -5.889494898372004e-05,
+      "alpha_se": 0.000301935603743795,
+      "alpha_tstat": -0.19505798009066486,
+      "alpha_pvalue": 0.8453475576955454,
+      "alpha_annualized": -0.014732365147533288
+    },
+    "disclosure": null,
+    "conflicted": null
+  },
+  {
+    "bio_guide_id": "S000250",
+    "name": "pete sessions",
+    "ff5": {
+      "alpha_daily": 2.9781691764508454e-05,
+      "alpha_se": 0.00011169230880518967,
+      "alpha_tstat": 0.2666404883477946,
+      "alpha_pvalue": 0.7897459786638695,
+      "alpha_annualized": 0.007533106724503913
+    },
+    "uncertainty": {
+      "alpha_daily": 3.0622097902611784e-05,
+      "alpha_se": 0.00011184730004479625,
+      "alpha_tstat": 0.2737848646355098,
+      "alpha_pvalue": 0.7842499556370204,
+      "alpha_annualized": 0.0077465006011914195
+    },
+    "disclosure": {
+      "alpha_daily": -0.00012556595470819817,
+      "alpha_se": 0.00017527138206727648,
+      "alpha_tstat": -0.7164087669486209,
+      "alpha_pvalue": 0.47373898315247764,
+      "alpha_annualized": -0.03114915664979412
+    },
+    "conflicted": {
+      "alpha_daily": 0.0001208521529872097,
+      "alpha_se": 0.00013260640336085265,
+      "alpha_tstat": 0.9113598583798632,
+      "alpha_pvalue": 0.36210579676437316,
+      "alpha_annualized": 0.030921335026379504
+    }
+  },
+  {
+    "bio_guide_id": "F000468",
+    "name": "lizzie fletcher",
+    "ff5": {
+      "alpha_daily": 1.5433325496289996e-05,
+      "alpha_se": 0.0004671612855766341,
+      "alpha_tstat": 0.03303639657819693,
+      "alpha_pvalue": 0.9736455632002946,
+      "alpha_annualized": 0.0038967406415453265
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0009106611655828516,
+      "alpha_se": 0.0005300938539689297,
+      "alpha_tstat": -1.7179243991691857,
+      "alpha_pvalue": 0.08581040576076884,
+      "alpha_annualized": -0.2051415015030812
+    },
+    "disclosure": {
+      "alpha_daily": -0.013133083848420568,
+      "alpha_se": 0.007036284458558681,
+      "alpha_tstat": -1.8664799477295098,
+      "alpha_pvalue": 0.061974246973137276,
+      "alpha_annualized": -0.9642591687826859
+    },
+    "conflicted": {
+      "alpha_daily": 0.04943531872884276,
+      "alpha_se": 0.016610021212028866,
+      "alpha_tstat": 2.9762345332251616,
+      "alpha_pvalue": 0.0029181160152947005,
+      "alpha_annualized": 190909.76727887147
+    }
+  },
+  {
+    "bio_guide_id": "S001229",
+    "name": "jefferson shreve",
+    "ff5": {
+      "alpha_daily": 1.0042870161377621e-05,
+      "alpha_se": 0.00021438819463864738,
+      "alpha_tstat": 0.04684432451285361,
+      "alpha_pvalue": 0.9626373019358666,
+      "alpha_annualized": 0.0025339957262635604
+    },
+    "uncertainty": {
+      "alpha_daily": 7.080523821248785e-05,
+      "alpha_se": 0.00020083946763808032,
+      "alpha_tstat": 0.3525464344492355,
+      "alpha_pvalue": 0.7244285011810572,
+      "alpha_annualized": 0.01800241291221938
+    },
+    "disclosure": {
+      "alpha_daily": 4.3529598319226245e-05,
+      "alpha_se": 0.0005627192634284518,
+      "alpha_tstat": 0.0773557991493229,
+      "alpha_pvalue": 0.9383405025400549,
+      "alpha_annualized": 0.011029602510313818
+    },
+    "conflicted": {
+      "alpha_daily": 9.049727815735869e-06,
+      "alpha_se": 0.00021884516321998804,
+      "alpha_tstat": 0.04135219477818151,
+      "alpha_pvalue": 0.9670151232109232,
+      "alpha_annualized": 0.002283123456643832
+    }
+  },
+  {
+    "bio_guide_id": "H000636",
+    "name": "ruben hinojosa",
+    "ff5": {
+      "alpha_daily": 9.545890668123812e-06,
+      "alpha_se": 0.0002620788858338952,
+      "alpha_tstat": 0.03642373035031128,
+      "alpha_pvalue": 0.9709444926481131,
+      "alpha_annualized": 0.0024084486307829334
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0006044957987472155,
+      "alpha_se": 0.0004157793529312612,
+      "alpha_tstat": 1.4538860443297528,
+      "alpha_pvalue": 0.14597790258783852,
+      "alpha_annualized": 0.164494302321609
+    },
+    "disclosure": {
+      "alpha_daily": 0.0005378505613236992,
+      "alpha_se": 0.0004431690807114414,
+      "alpha_tstat": 1.213646404348112,
+      "alpha_pvalue": 0.22488277877723561,
+      "alpha_annualized": 0.14511137707648758
+    },
+    "conflicted": {
+      "alpha_daily": 0.00014890937814398473,
+      "alpha_se": 0.00043736705057642274,
+      "alpha_tstat": 0.3404677557391015,
+      "alpha_pvalue": 0.7335043011132054,
+      "alpha_annualized": 0.0382352217756432
+    }
+  },
+  {
+    "bio_guide_id": "F000462",
+    "name": "lois frankel",
+    "ff5": {
+      "alpha_daily": -4.7701611996518664e-06,
+      "alpha_se": 7.612113641411618e-05,
+      "alpha_tstat": -0.06266539655557836,
+      "alpha_pvalue": 0.9500329527619613,
+      "alpha_annualized": -0.0012013612764246728
+    },
+    "uncertainty": {
+      "alpha_daily": -5.526144669799585e-06,
+      "alpha_se": 7.64863945050513e-05,
+      "alpha_tstat": -0.07225003486645756,
+      "alpha_pvalue": 0.9424029271180016,
+      "alpha_annualized": -0.0013916230979068578
+    },
+    "disclosure": {
+      "alpha_daily": -0.00011852513899946284,
+      "alpha_se": 0.0001402710166678574,
+      "alpha_tstat": -0.8449724099463412,
+      "alpha_pvalue": 0.39812624359662474,
+      "alpha_annualized": -0.029428402476433302
+    },
+    "conflicted": {
+      "alpha_daily": 1.3487772855956399e-05,
+      "alpha_se": 0.00024411513196324403,
+      "alpha_tstat": 0.05525168697034,
+      "alpha_pvalue": 0.955937951542859,
+      "alpha_annualized": 0.0034046786342869506
+    }
+  },
+  {
+    "bio_guide_id": "S001207",
+    "name": "mikie sherrill",
+    "ff5": {
+      "alpha_daily": -1.413002020116984e-05,
+      "alpha_se": 0.0005267120447272725,
+      "alpha_tstat": -0.026826840856632124,
+      "alpha_pvalue": 0.9785978450111393,
+      "alpha_annualized": -0.003554458152150608
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0001844525272553018,
+      "alpha_se": 0.00048195794847817884,
+      "alpha_tstat": 0.38271498133338305,
+      "alpha_pvalue": 0.7019311051717136,
+      "alpha_annualized": 0.04757477082669337
+    },
+    "disclosure": {
+      "alpha_daily": -0.0002977341338313657,
+      "alpha_se": 0.0019246826299960718,
+      "alpha_tstat": -0.15469258629510954,
+      "alpha_pvalue": 0.877063674917192,
+      "alpha_annualized": -0.07229378343133086
+    },
+    "conflicted": {
+      "alpha_daily": -2.759754750764347e-05,
+      "alpha_se": 0.0010843626105676949,
+      "alpha_tstat": -0.02545047868553432,
+      "alpha_pvalue": 0.9796956479611452,
+      "alpha_annualized": -0.006930550131904356
+    }
+  },
+  {
+    "bio_guide_id": "D000598",
+    "name": "susan a. davis",
+    "ff5": {
+      "alpha_daily": -3.1844916938680965e-05,
+      "alpha_se": 0.0003102216183695962,
+      "alpha_tstat": -0.10265215269666061,
+      "alpha_pvalue": 0.9182390495636816,
+      "alpha_annualized": -0.007992932124044061
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00011260714348891362,
+      "alpha_se": 0.0003569375594230143,
+      "alpha_tstat": -0.3154813510546266,
+      "alpha_pvalue": 0.7523962083699063,
+      "alpha_annualized": -0.027979707814566046
+    },
+    "disclosure": {
+      "alpha_daily": 0.0037883171667443846,
+      "alpha_se": 0.003874278019156072,
+      "alpha_tstat": 0.9778124202789112,
+      "alpha_pvalue": 0.3281671069793094,
+      "alpha_annualized": 1.5930951743795
+    },
+    "conflicted": {
+      "alpha_daily": -1.3528459952845786e-05,
+      "alpha_se": 0.0005995369872188374,
+      "alpha_tstat": -0.022564846275126896,
+      "alpha_pvalue": 0.981997385291901,
+      "alpha_annualized": -0.0034033902619113876
+    }
+  },
+  {
+    "bio_guide_id": "M001157",
+    "name": "michael t. mccaul",
+    "ff5": {
+      "alpha_daily": -3.863277020121947e-05,
+      "alpha_se": 6.107489903049556e-05,
+      "alpha_tstat": -0.6325474264301212,
+      "alpha_pvalue": 0.5270292283541262,
+      "alpha_annualized": -0.009688408168148532
+    },
+    "uncertainty": {
+      "alpha_daily": -4.022641047827946e-05,
+      "alpha_se": 5.8630550522079576e-05,
+      "alpha_tstat": -0.6860998254336819,
+      "alpha_pvalue": 0.4926501610077898,
+      "alpha_annualized": -0.010086050506402655
+    },
+    "disclosure": {
+      "alpha_daily": -0.00026771636747147316,
+      "alpha_se": 0.0006323146932931372,
+      "alpha_tstat": -0.4233910271437603,
+      "alpha_pvalue": 0.6720099904022329,
+      "alpha_annualized": -0.06524756195263537
+    },
+    "conflicted": {
+      "alpha_daily": 0.00013271123372730879,
+      "alpha_se": 0.00025722425742057185,
+      "alpha_tstat": 0.51593591933408,
+      "alpha_pvalue": 0.6058991658616644,
+      "alpha_annualized": 0.03400644790258589
+    }
+  },
+  {
+    "bio_guide_id": "R000583",
+    "name": "thomas j. rooney",
+    "ff5": {
+      "alpha_daily": -4.2457852669488215e-05,
+      "alpha_se": 0.000141286302088727,
+      "alpha_tstat": -0.3005093348881403,
+      "alpha_pvalue": 0.7637886770788478,
+      "alpha_annualized": -0.010642568837399002
+    },
+    "uncertainty": {
+      "alpha_daily": -8.884028263657774e-05,
+      "alpha_se": 0.00018049087421993386,
+      "alpha_tstat": -0.49221481706783154,
+      "alpha_pvalue": 0.6225674908957646,
+      "alpha_annualized": -0.02213997777517751
+    },
+    "disclosure": {
+      "alpha_daily": -0.00029146956603058,
+      "alpha_se": 0.000305509589650199,
+      "alpha_tstat": -0.9540439184390431,
+      "alpha_pvalue": 0.34006141190866623,
+      "alpha_annualized": -0.07082765156052495
+    },
+    "conflicted": {
+      "alpha_daily": 5.721783274604755e-05,
+      "alpha_se": 0.00023945842880848407,
+      "alpha_tstat": 0.2389468311086668,
+      "alpha_pvalue": 0.8111468111671323,
+      "alpha_annualized": 0.014522929049773259
+    }
+  },
+  {
+    "bio_guide_id": "C001075",
+    "name": "bill cassidy",
+    "ff5": {
+      "alpha_daily": -4.73698935833648e-05,
+      "alpha_se": 0.00013496765109152854,
+      "alpha_tstat": -0.3509722011183319,
+      "alpha_pvalue": 0.7256092037134885,
+      "alpha_annualized": -0.011866526698702695
+    },
+    "uncertainty": {
+      "alpha_daily": -4.068127824736952e-05,
+      "alpha_se": 0.00013575232663971422,
+      "alpha_tstat": -0.29967278833708216,
+      "alpha_pvalue": 0.7644267569509371,
+      "alpha_annualized": -0.010199519140610347
+    },
+    "disclosure": {
+      "alpha_daily": 0.00018749786970748548,
+      "alpha_se": 0.00027100311098900593,
+      "alpha_tstat": 0.6918661155705031,
+      "alpha_pvalue": 0.4890214116140683,
+      "alpha_annualized": 0.0483788662155622
+    },
+    "conflicted": {
+      "alpha_daily": 0.00024293310476747646,
+      "alpha_se": 0.00018033486531844741,
+      "alpha_tstat": 1.3471222236392772,
+      "alpha_pvalue": 0.17794087172802686,
+      "alpha_annualized": 0.06312396170942058
+    }
+  },
+  {
+    "bio_guide_id": "W000413",
+    "name": "ed whitfield",
+    "ff5": {
+      "alpha_daily": -4.845248676392741e-05,
+      "alpha_se": 0.0003181796618776745,
+      "alpha_tstat": -0.15228027611191308,
+      "alpha_pvalue": 0.8789658808669905,
+      "alpha_annualized": -0.012136078975889197
+    },
+    "uncertainty": {
+      "alpha_daily": 0.0003535422493862455,
+      "alpha_se": 0.0006482678884552641,
+      "alpha_tstat": 0.5453644329486835,
+      "alpha_pvalue": 0.5855028972227863,
+      "alpha_annualized": 0.09316471915416402
+    },
+    "disclosure": {
+      "alpha_daily": -0.00017882416864837885,
+      "alpha_se": 0.0006581448351704192,
+      "alpha_tstat": -0.27170944614656795,
+      "alpha_pvalue": 0.7858454374865169,
+      "alpha_annualized": -0.04406725633298936
+    },
+    "conflicted": {
+      "alpha_daily": -0.0002446603273461624,
+      "alpha_se": 0.000626696887985209,
+      "alpha_tstat": -0.3903965889039755,
+      "alpha_pvalue": 0.6962433098197284,
+      "alpha_annualized": -0.05979932824818579
+    }
+  },
+  {
+    "bio_guide_id": "M001135",
+    "name": "kathy e. manning",
+    "ff5": {
+      "alpha_daily": -5.9999742895199356e-05,
+      "alpha_se": 0.00015379510322262083,
+      "alpha_tstat": -0.3901277845520789,
+      "alpha_pvalue": 0.6964420583097675,
+      "alpha_annualized": -0.015006649726137966
+    },
+    "uncertainty": {
+      "alpha_daily": -8.311913104193428e-05,
+      "alpha_se": 0.00016127449253095085,
+      "alpha_tstat": -0.5153891960068177,
+      "alpha_pvalue": 0.6062810806726063,
+      "alpha_annualized": -0.020729029275913358
+    },
+    "disclosure": {
+      "alpha_daily": -1.829452982467675e-05,
+      "alpha_se": 0.0002468081346965304,
+      "alpha_tstat": -0.07412450099009614,
+      "alpha_pvalue": 0.9409113199148373,
+      "alpha_annualized": -0.004599652734319837
+    },
+    "conflicted": {
+      "alpha_daily": 2.814432146567921e-05,
+      "alpha_se": 0.0010481023378304441,
+      "alpha_tstat": 0.026852646397046997,
+      "alpha_pvalue": 0.9785772625836955,
+      "alpha_annualized": 0.007117478910252162
+    }
+  },
+  {
+    "bio_guide_id": "L000559",
+    "name": "james r. langevin",
+    "ff5": {
+      "alpha_daily": -6.546026539362536e-05,
+      "alpha_se": 0.0004173821519007735,
+      "alpha_tstat": -0.15683532488276494,
+      "alpha_pvalue": 0.8753746321128445,
+      "alpha_annualized": -0.016361204259297768
+    },
+    "uncertainty": {
+      "alpha_daily": -6.1025277388199005e-05,
+      "alpha_se": 0.0004188337445809536,
+      "alpha_tstat": -0.14570286701530047,
+      "alpha_pvalue": 0.8841559579747721,
+      "alpha_annualized": -0.015261188689994376
+    },
+    "disclosure": {
+      "alpha_daily": -0.0007561273936405677,
+      "alpha_se": 0.0006644697255574622,
+      "alpha_tstat": -1.137941074751312,
+      "alpha_pvalue": 0.25514508832360405,
+      "alpha_annualized": -0.17355026258006667
+    },
+    "conflicted": {
+      "alpha_daily": 4.92055657969116e-05,
+      "alpha_se": 0.0005407700181672708,
+      "alpha_tstat": 0.09099166770316647,
+      "alpha_pvalue": 0.9274992118010457,
+      "alpha_annualized": 0.012476690010008173
+    }
+  },
+  {
+    "bio_guide_id": "C001107",
+    "name": "carlos curbelo",
+    "ff5": {
+      "alpha_daily": -6.73204202020587e-05,
+      "alpha_se": 0.00012540155332800722,
+      "alpha_tstat": -0.5368388063421486,
+      "alpha_pvalue": 0.5913789635544113,
+      "alpha_annualized": -0.01682221635559933
+    },
+    "uncertainty": {
+      "alpha_daily": -4.135536857789065e-05,
+      "alpha_se": 0.00013762269128155108,
+      "alpha_tstat": -0.30049818233306497,
+      "alpha_pvalue": 0.7637971826894729,
+      "alpha_annualized": -0.010367649919567179
+    },
+    "disclosure": {
+      "alpha_daily": -1.7660991317413482e-05,
+      "alpha_se": 0.00016421000971973687,
+      "alpha_tstat": -0.10755124701323708,
+      "alpha_pvalue": 0.9143516718163446,
+      "alpha_annualized": -0.004440719828996187
+    },
+    "conflicted": {
+      "alpha_daily": 0.0002706164434408823,
+      "alpha_se": 0.0002732170002899185,
+      "alpha_tstat": 0.9904817165612804,
+      "alpha_pvalue": 0.32193872140682045,
+      "alpha_annualized": 0.07056454129136802
+    }
+  },
+  {
+    "bio_guide_id": "W000804",
+    "name": "robert j. wittman",
+    "ff5": {
+      "alpha_daily": -6.929199591198326e-05,
+      "alpha_se": 6.727740873432326e-05,
+      "alpha_tstat": -1.0299444823390205,
+      "alpha_pvalue": 0.3030360678401711,
+      "alpha_annualized": -0.017310607558337687
+    },
+    "uncertainty": {
+      "alpha_daily": -7.710264409236813e-05,
+      "alpha_se": 6.53096114321578e-05,
+      "alpha_tstat": -1.1805711655850328,
+      "alpha_pvalue": 0.23777312391836447,
+      "alpha_annualized": -0.019243057740801595
+    },
+    "disclosure": {
+      "alpha_daily": 0.0010605946834912853,
+      "alpha_se": 0.0005402706735879741,
+      "alpha_tstat": 1.9630802398505258,
+      "alpha_pvalue": 0.04963685120995979,
+      "alpha_annualized": 0.30620792786273654
+    },
+    "conflicted": {
+      "alpha_daily": -0.0006106905635133802,
+      "alpha_se": 0.0003798566312902755,
+      "alpha_tstat": -1.6076869882171623,
+      "alpha_pvalue": 0.10790374974096376,
+      "alpha_annualized": -0.14267742584625898
+    }
+  },
+  {
+    "bio_guide_id": "C001066",
+    "name": "kathy castor",
+    "ff5": {
+      "alpha_daily": -7.00165872676507e-05,
+      "alpha_se": 0.00015679191267061723,
+      "alpha_tstat": -0.446557389823664,
+      "alpha_pvalue": 0.6551946670037552,
+      "alpha_annualized": -0.017490039830419746
+    },
+    "uncertainty": {
+      "alpha_daily": -6.920666267994879e-05,
+      "alpha_se": 0.00016094374894616087,
+      "alpha_tstat": -0.4300052852820018,
+      "alpha_pvalue": 0.6671917965373925,
+      "alpha_annualized": -0.017289474140027128
+    },
+    "disclosure": {
+      "alpha_daily": -2.2057161597548394e-05,
+      "alpha_se": 0.0001967829571291183,
+      "alpha_tstat": -0.11208878004143255,
+      "alpha_pvalue": 0.9107530135915972,
+      "alpha_annualized": -0.005543046335689139
+    },
+    "conflicted": {
+      "alpha_daily": 1.1246828362114546e-05,
+      "alpha_se": 0.0002093654721600568,
+      "alpha_tstat": 0.053718639688193244,
+      "alpha_pvalue": 0.9571593319196413,
+      "alpha_annualized": 0.0028382049082744665
+    }
+  },
+  {
+    "bio_guide_id": "R000609",
+    "name": "john h. rutherford",
+    "ff5": {
+      "alpha_daily": -8.219195909192117e-05,
+      "alpha_se": 0.0001015138463257139,
+      "alpha_tstat": -0.8096625442425147,
+      "alpha_pvalue": 0.41813415082643335,
+      "alpha_annualized": -0.020500179577144118
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00010343495014185998,
+      "alpha_se": 9.552905767355117e-05,
+      "alpha_tstat": -1.0827590333333488,
+      "alpha_pvalue": 0.27891539355556216,
+      "alpha_annualized": -0.025730145374559532
+    },
+    "disclosure": {
+      "alpha_daily": 0.001083434138314827,
+      "alpha_se": 0.001993068976286895,
+      "alpha_tstat": 0.5436009246068715,
+      "alpha_pvalue": 0.5867161233876125,
+      "alpha_annualized": 0.3137394425726405
+    },
+    "conflicted": {
+      "alpha_daily": 0.0005838265825006835,
+      "alpha_se": 0.0012776835070175154,
+      "alpha_tstat": 0.45694147204224655,
+      "alpha_pvalue": 0.6477131141220558,
+      "alpha_annualized": 0.15844821976406598
+    }
+  },
+  {
+    "bio_guide_id": "B001286",
+    "name": "cheri bustos",
+    "ff5": {
+      "alpha_daily": -0.00010088582965481614,
+      "alpha_se": 0.00025137996494684924,
+      "alpha_tstat": -0.4013280440871532,
+      "alpha_pvalue": 0.6881786188635386,
+      "alpha_annualized": -0.025104030456537307
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00013911895788739292,
+      "alpha_se": 0.0002638051634801835,
+      "alpha_tstat": -0.5273549465526033,
+      "alpha_pvalue": 0.597947124011663,
+      "alpha_annualized": -0.03445292021761892
+    },
+    "disclosure": {
+      "alpha_daily": 8.128355344681542e-05,
+      "alpha_se": 0.0012895883801903902,
+      "alpha_tstat": 0.06303061868067934,
+      "alpha_pvalue": 0.9497421226071907,
+      "alpha_annualized": 0.020693831522650807
+    },
+    "conflicted": {
+      "alpha_daily": -0.00010088582965481614,
+      "alpha_se": 0.00025137996494684924,
+      "alpha_tstat": -0.4013280440871532,
+      "alpha_pvalue": 0.6881786188635386,
+      "alpha_annualized": -0.025104030456537307
+    }
+  },
+  {
+    "bio_guide_id": "M001111",
+    "name": "patty murray",
+    "ff5": {
+      "alpha_daily": -0.00010624927225420452,
+      "alpha_se": 0.00025909362801329144,
+      "alpha_tstat": -0.41008060703350824,
+      "alpha_pvalue": 0.6817468181582862,
+      "alpha_annualized": -0.0264209339297522
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00012295535357512882,
+      "alpha_se": 0.0002618568940942177,
+      "alpha_tstat": -0.4695517144982585,
+      "alpha_pvalue": 0.6386753291654022,
+      "alpha_annualized": -0.030511488340217885
+    },
+    "disclosure": null,
+    "conflicted": null
+  },
+  {
+    "bio_guide_id": "M001180",
+    "name": "david b. mckinley",
+    "ff5": {
+      "alpha_daily": -0.0001091087688689694,
+      "alpha_se": 9.066894211262211e-05,
+      "alpha_tstat": -1.2033753380892294,
+      "alpha_pvalue": 0.2288311069811544,
+      "alpha_annualized": -0.027122311122193543
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00010917737179876242,
+      "alpha_se": 9.177511248885845e-05,
+      "alpha_tstat": -1.1896185015520042,
+      "alpha_pvalue": 0.23419637061450616,
+      "alpha_annualized": -0.02713913186212591
+    },
+    "disclosure": {
+      "alpha_daily": -0.00020255398417652777,
+      "alpha_se": 0.00012792003783517367,
+      "alpha_tstat": -1.583442184699169,
+      "alpha_pvalue": 0.11332071442864775,
+      "alpha_annualized": -0.04976767746990385
+    },
+    "conflicted": {
+      "alpha_daily": -0.00029264122558501064,
+      "alpha_se": 0.0003664031316855583,
+      "alpha_tstat": -0.7986864747546726,
+      "alpha_pvalue": 0.4244722312788203,
+      "alpha_annualized": -0.07110203694926887
+    }
+  },
+  {
+    "bio_guide_id": "Y000062",
+    "name": "john a. yarmuth",
+    "ff5": {
+      "alpha_daily": -0.00012157270488501901,
+      "alpha_se": 0.00011684078739527767,
+      "alpha_tstat": -1.0404988497187464,
+      "alpha_pvalue": 0.298108198189858,
+      "alpha_annualized": -0.03017359173558809
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00011440196065294187,
+      "alpha_se": 0.00011721762003715995,
+      "alpha_tstat": -0.9759792138474961,
+      "alpha_pvalue": 0.3290747650950563,
+      "alpha_annualized": -0.02841929716411906
+    },
+    "disclosure": {
+      "alpha_daily": -2.579537003746731e-06,
+      "alpha_se": 0.0001463006504239035,
+      "alpha_tstat": -0.017631753490313058,
+      "alpha_pvalue": 0.985932624988589,
+      "alpha_annualized": -0.00064983293042431
+    },
+    "conflicted": {
+      "alpha_daily": 0.00010091926047020773,
+      "alpha_se": 0.00021314059300693255,
+      "alpha_tstat": 0.4734868147191711,
+      "alpha_pvalue": 0.6358659057057497,
+      "alpha_annualized": 0.02575648082469728
+    }
+  },
+  {
+    "bio_guide_id": "C001069",
+    "name": "joe courtney",
+    "ff5": {
+      "alpha_daily": -0.0001299787237972487,
+      "alpha_se": 0.00038899854150101844,
+      "alpha_tstat": -0.33413678955119785,
+      "alpha_pvalue": 0.738276339825456,
+      "alpha_annualized": -0.03222607475655426
+    },
+    "uncertainty": {
+      "alpha_daily": -0.000529785868746812,
+      "alpha_se": 0.00036058775288804596,
+      "alpha_tstat": -1.469228681516807,
+      "alpha_pvalue": 0.14177077334502455,
+      "alpha_annualized": -0.12500877060742077
+    },
+    "disclosure": {
+      "alpha_daily": -0.00887024893505739,
+      "alpha_se": 0.009403884595933476,
+      "alpha_tstat": -0.9432536995289323,
+      "alpha_pvalue": 0.34555115219551413,
+      "alpha_annualized": -0.8941016487890483
+    },
+    "conflicted": {
+      "alpha_daily": 0.005175425193861155,
+      "alpha_se": 0.005727374283330692,
+      "alpha_tstat": 0.9036296455993869,
+      "alpha_pvalue": 0.36619181612378304,
+      "alpha_annualized": 2.672394255242407
+    }
+  },
+  {
+    "bio_guide_id": "J000295",
+    "name": "david p. joyce",
+    "ff5": {
+      "alpha_daily": -0.00013172679464481775,
+      "alpha_se": 0.00014295377590271515,
+      "alpha_tstat": -0.9214642552321407,
+      "alpha_pvalue": 0.3568080949955936,
+      "alpha_annualized": -0.03265235445967607
+    },
+    "uncertainty": {
+      "alpha_daily": -8.720372458450254e-05,
+      "alpha_se": 0.00010952629021255232,
+      "alpha_tstat": -0.7961898866041253,
+      "alpha_pvalue": 0.42592167491959254,
+      "alpha_annualized": -0.021736577266362134
+    },
+    "disclosure": {
+      "alpha_daily": 4.256063251693297e-05,
+      "alpha_se": 0.0004092007978464109,
+      "alpha_tstat": 0.10400916308307795,
+      "alpha_pvalue": 0.9171620769238504,
+      "alpha_annualized": 0.01078277068836897
+    },
+    "conflicted": {
+      "alpha_daily": -0.00013172679464481775,
+      "alpha_se": 0.00014295377590271515,
+      "alpha_tstat": -0.9214642552321407,
+      "alpha_pvalue": 0.3568080949955936,
+      "alpha_annualized": -0.03265235445967607
+    }
+  },
+  {
+    "bio_guide_id": "W000800",
+    "name": "peter welch",
+    "ff5": {
+      "alpha_daily": -0.00013352113348966078,
+      "alpha_se": 0.0003391098487432899,
+      "alpha_tstat": -0.39374006383028365,
+      "alpha_pvalue": 0.6937729591054445,
+      "alpha_annualized": -0.033089722437745994
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00020960626651780225,
+      "alpha_se": 0.00035753120942789046,
+      "alpha_tstat": -0.5862600550402501,
+      "alpha_pvalue": 0.5577007698468424,
+      "alpha_annualized": -0.05145525451206645
+    },
+    "disclosure": {
+      "alpha_daily": 0.00040361395102907866,
+      "alpha_se": 0.002121537249444932,
+      "alpha_tstat": 0.1902459884381847,
+      "alpha_pvalue": 0.8491163755590151,
+      "alpha_annualized": 0.10704045220425407
+    },
+    "conflicted": {
+      "alpha_daily": 0.00023397894517390952,
+      "alpha_se": 0.0016087343556403595,
+      "alpha_tstat": 0.14544287212712242,
+      "alpha_pvalue": 0.8843612174444162,
+      "alpha_annualized": 0.06072835258854026
+    }
+  },
+  {
+    "bio_guide_id": "C001114",
+    "name": "john r. curtis",
+    "ff5": {
+      "alpha_daily": -0.00013931247214275994,
+      "alpha_se": 0.000190334786151228,
+      "alpha_tstat": -0.7319338464597378,
+      "alpha_pvalue": 0.4642089463464152,
+      "alpha_annualized": -0.03450001110046341
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00026140556172792376,
+      "alpha_se": 0.00021005165546606955,
+      "alpha_tstat": -1.2444822734098833,
+      "alpha_pvalue": 0.213322119500871,
+      "alpha_annualized": -0.06375942691037051
+    },
+    "disclosure": {
+      "alpha_daily": 0.000170987745300615,
+      "alpha_se": 0.00013521331461416523,
+      "alpha_tstat": 1.264577721421393,
+      "alpha_pvalue": 0.206022743481595,
+      "alpha_annualized": 0.04402687179631837
+    },
+    "conflicted": {
+      "alpha_daily": -0.0006251854926077813,
+      "alpha_se": 0.0005907593014679834,
+      "alpha_tstat": -1.0582744800703974,
+      "alpha_pvalue": 0.28993032405275887,
+      "alpha_annualized": -0.14580520382823003
+    }
+  },
+  {
+    "bio_guide_id": "C000174",
+    "name": "thomas r. carper",
+    "ff5": {
+      "alpha_daily": -0.00014274810272486206,
+      "alpha_se": 0.00010954449982456293,
+      "alpha_tstat": -1.3031060706240403,
+      "alpha_pvalue": 0.19253855138952114,
+      "alpha_annualized": -0.03533567667640658
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00014293756628118263,
+      "alpha_se": 0.00010961942033998723,
+      "alpha_tstat": -1.3039438252625164,
+      "alpha_pvalue": 0.19225273623578099,
+      "alpha_annualized": -0.03538173987735349
+    },
+    "disclosure": {
+      "alpha_daily": -0.0002514211364216315,
+      "alpha_se": 0.00013526442347394445,
+      "alpha_tstat": -1.858738092134492,
+      "alpha_pvalue": 0.06306427132082092,
+      "alpha_annualized": -0.06140020356144327
+    },
+    "conflicted": {
+      "alpha_daily": 0.00017948065300868582,
+      "alpha_se": 0.0002871370311218488,
+      "alpha_tstat": 0.6250696829574791,
+      "alpha_pvalue": 0.531925324639698,
+      "alpha_annualized": 0.04626331188525268
+    }
+  },
+  {
+    "bio_guide_id": "B001299",
+    "name": "jim banks",
+    "ff5": {
+      "alpha_daily": -0.0001525132321400852,
+      "alpha_se": 0.0008910237222761377,
+      "alpha_tstat": -0.17116629818843335,
+      "alpha_pvalue": 0.8640930065320286,
+      "alpha_annualized": -0.037706966039051104
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00041944338695843966,
+      "alpha_se": 0.000998134858263068,
+      "alpha_tstat": -0.4202271701925587,
+      "alpha_pvalue": 0.6743195080312648,
+      "alpha_annualized": -0.10032519366043346
+    },
+    "disclosure": {
+      "alpha_daily": -0.00012832270535048353,
+      "alpha_se": 0.0013189822179650822,
+      "alpha_tstat": -0.09728918525411133,
+      "alpha_pvalue": 0.9224967441754177,
+      "alpha_annualized": -0.03182207011491567
+    },
+    "conflicted": {
+      "alpha_daily": -0.00019775915612997558,
+      "alpha_se": 0.000918551230880456,
+      "alpha_tstat": -0.21529463951664202,
+      "alpha_pvalue": 0.8295376086866049,
+      "alpha_annualized": -0.048618590844829224
+    }
+  },
+  {
+    "bio_guide_id": "D000624",
+    "name": "debbie dingell",
+    "ff5": {
+      "alpha_daily": -0.0001557730226114342,
+      "alpha_se": 0.00013238976200709212,
+      "alpha_tstat": -1.1766243873381195,
+      "alpha_pvalue": 0.23934545951165975,
+      "alpha_annualized": -0.038497255376898964
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00022438103493281354,
+      "alpha_se": 0.00013206972187605005,
+      "alpha_tstat": -1.6989589418791948,
+      "alpha_pvalue": 0.08932691997743666,
+      "alpha_annualized": -0.054981113009822336
+    },
+    "disclosure": {
+      "alpha_daily": -0.0006753000741267988,
+      "alpha_se": 0.000389269410338677,
+      "alpha_tstat": -1.7347884426347957,
+      "alpha_pvalue": 0.08277828402617315,
+      "alpha_annualized": -0.15653182243570973
+    },
+    "conflicted": {
+      "alpha_daily": 0.00020301234931520464,
+      "alpha_se": 0.00017446664010699708,
+      "alpha_tstat": 1.1636170054670683,
+      "alpha_pvalue": 0.24457925673090752,
+      "alpha_annualized": 0.05248487904110877
+    }
+  },
+  {
+    "bio_guide_id": "N000189",
+    "name": "dan newhouse",
+    "ff5": {
+      "alpha_daily": -0.00016621680162957398,
+      "alpha_se": 0.00021590637046530855,
+      "alpha_tstat": -0.7698559392729053,
+      "alpha_pvalue": 0.441385352736933,
+      "alpha_annualized": -0.0410248487383893
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00015921717145044045,
+      "alpha_se": 0.0001824586298746131,
+      "alpha_tstat": -0.8726206678185386,
+      "alpha_pvalue": 0.38286987148603147,
+      "alpha_annualized": -0.03933153743003992
+    },
+    "disclosure": {
+      "alpha_daily": -0.002352205119205617,
+      "alpha_se": 0.0011990958352086124,
+      "alpha_tstat": -1.9616489776202024,
+      "alpha_pvalue": 0.049803365890068084,
+      "alpha_annualized": -0.4475840184073345
+    },
+    "conflicted": {
+      "alpha_daily": -0.00016621680162957398,
+      "alpha_se": 0.00021590637046530855,
+      "alpha_tstat": -0.7698559392729053,
+      "alpha_pvalue": 0.441385352736933,
+      "alpha_annualized": -0.0410248487383893
+    }
+  },
+  {
+    "bio_guide_id": "C001047",
+    "name": "shelley moore capito",
+    "ff5": {
+      "alpha_daily": -0.0001699322818170757,
+      "alpha_se": 9.174078595753273e-05,
+      "alpha_tstat": -1.8523089816969545,
+      "alpha_pvalue": 0.06398146670520777,
+      "alpha_annualized": -0.04192246871868255
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00016336193205050115,
+      "alpha_se": 8.896622106266229e-05,
+      "alpha_tstat": -1.8362242444291201,
+      "alpha_pvalue": 0.0663244984060547,
+      "alpha_annualized": -0.040334573972447774
+    },
+    "disclosure": {
+      "alpha_daily": -0.00018345075624671031,
+      "alpha_se": 0.0007758301556632654,
+      "alpha_tstat": -0.23645736751477045,
+      "alpha_pvalue": 0.8130777851362614,
+      "alpha_annualized": -0.04518133061504759
+    },
+    "conflicted": {
+      "alpha_daily": -0.0004061072556794474,
+      "alpha_se": 0.000347237791227928,
+      "alpha_tstat": -1.1695364558199177,
+      "alpha_pvalue": 0.24218756216329362,
+      "alpha_annualized": -0.09729531289133475
+    }
+  },
+  {
+    "bio_guide_id": "C001062",
+    "name": "k. michael conaway",
+    "ff5": {
+      "alpha_daily": -0.00017010252782211077,
+      "alpha_se": 8.166605927459364e-05,
+      "alpha_tstat": -2.082903587280472,
+      "alpha_pvalue": 0.037260012574949666,
+      "alpha_annualized": -0.04196357826198027
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00018673718119342918,
+      "alpha_se": 8.616750791087447e-05,
+      "alpha_tstat": -2.1671414866329526,
+      "alpha_pvalue": 0.030224067397561935,
+      "alpha_annualized": -0.04597191038404291
+    },
+    "disclosure": {
+      "alpha_daily": -0.0001958885136259384,
+      "alpha_se": 0.00010818222131210612,
+      "alpha_tstat": -1.8107274120467474,
+      "alpha_pvalue": 0.07018305741177022,
+      "alpha_annualized": -0.04816991377480839
+    },
+    "conflicted": {
+      "alpha_daily": -0.00040238391226732275,
+      "alpha_se": 0.0003267604614064944,
+      "alpha_tstat": -1.231433908910882,
+      "alpha_pvalue": 0.21816062120551982,
+      "alpha_annualized": -0.09644758050866986
+    }
+  },
+  {
+    "bio_guide_id": "K000389",
+    "name": "ro khanna",
+    "ff5": {
+      "alpha_daily": -0.0001820925976368874,
+      "alpha_se": 6.0672342927470306e-05,
+      "alpha_tstat": -3.0012455239212836,
+      "alpha_pvalue": 0.002688776719791617,
+      "alpha_annualized": -0.044854422536032
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00013518639970515632,
+      "alpha_se": 5.6325255793040666e-05,
+      "alpha_tstat": -2.400102721270898,
+      "alpha_pvalue": 0.01639047162704634,
+      "alpha_annualized": -0.03349545289209732
+    },
+    "disclosure": {
+      "alpha_daily": -0.0016720511475422162,
+      "alpha_se": 0.000858470052293945,
+      "alpha_tstat": -1.947710514856372,
+      "alpha_pvalue": 0.05144961124113333,
+      "alpha_annualized": -0.3440754733392801
+    },
+    "conflicted": {
+      "alpha_daily": -0.0004899298704846696,
+      "alpha_se": 0.0010223693413975682,
+      "alpha_tstat": -0.4792102527399156,
+      "alpha_pvalue": 0.6317890611060536,
+      "alpha_annualized": -0.11617180182241371
+    }
+  },
+  {
+    "bio_guide_id": "L000590",
+    "name": "susie lee",
+    "ff5": {
+      "alpha_daily": -0.00018242640196300684,
+      "alpha_se": 0.00024843061810965586,
+      "alpha_tstat": -0.7343152923384221,
+      "alpha_pvalue": 0.4627565998291212,
+      "alpha_annualized": -0.04493477939692636
+    },
+    "uncertainty": {
+      "alpha_daily": -9.872142239388093e-05,
+      "alpha_se": 0.00025415947875461533,
+      "alpha_tstat": -0.38842313840749576,
+      "alpha_pvalue": 0.6977029238244182,
+      "alpha_annualized": -0.024572094190767557
+    },
+    "disclosure": {
+      "alpha_daily": 0.0007373726141320835,
+      "alpha_se": 0.0008944709789328589,
+      "alpha_tstat": 0.8243672869205882,
+      "alpha_pvalue": 0.40973089660156037,
+      "alpha_annualized": 0.20412049875995697
+    },
+    "conflicted": {
+      "alpha_daily": -0.0003014483283762696,
+      "alpha_se": 0.0003126924574021269,
+      "alpha_tstat": -0.9640409330008328,
+      "alpha_pvalue": 0.33502540428176375,
+      "alpha_annualized": -0.07316194887618765
+    }
+  },
+  {
+    "bio_guide_id": "F000461",
+    "name": "bill flores",
+    "ff5": {
+      "alpha_daily": -0.00018829911559302577,
+      "alpha_se": 0.00017982330907692035,
+      "alpha_tstat": -1.047134081558247,
+      "alpha_pvalue": 0.29503774240797087,
+      "alpha_annualized": -0.04634741947379284
+    },
+    "uncertainty": {
+      "alpha_daily": -3.287655613796419e-05,
+      "alpha_se": 0.000285458273815119,
+      "alpha_tstat": -0.11517114462500093,
+      "alpha_pvalue": 0.9083094697082145,
+      "alpha_annualized": -0.008250802078882957
+    },
+    "disclosure": {
+      "alpha_daily": -0.0002488459443425294,
+      "alpha_se": 0.0011688341016547435,
+      "alpha_tstat": -0.21290099594992382,
+      "alpha_pvalue": 0.831404185536443,
+      "alpha_annualized": -0.06079075054657668
+    },
+    "conflicted": {
+      "alpha_daily": 0.0001120160371733281,
+      "alpha_se": 0.00025297246614346445,
+      "alpha_tstat": 0.44279932468936023,
+      "alpha_pvalue": 0.6579108918377479,
+      "alpha_annualized": 0.02862860178335036
+    }
+  },
+  {
+    "bio_guide_id": "C000567",
+    "name": "thad cochran",
+    "ff5": {
+      "alpha_daily": -0.00019787239203233805,
+      "alpha_se": 0.00022385584937477913,
+      "alpha_tstat": -0.8839277266374236,
+      "alpha_pvalue": 0.37673522869581,
+      "alpha_annualized": -0.048645743922865914
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00017636110117053103,
+      "alpha_se": 0.0002963613062106284,
+      "alpha_tstat": -0.5950881490756711,
+      "alpha_pvalue": 0.5517845498796987,
+      "alpha_annualized": -0.04347362592987902
+    },
+    "disclosure": {
+      "alpha_daily": -0.00023996701322884928,
+      "alpha_se": 0.0002508210400141454,
+      "alpha_tstat": -0.9567260115631289,
+      "alpha_pvalue": 0.3387055655047293,
+      "alpha_annualized": -0.058686410985182014
+    },
+    "conflicted": {
+      "alpha_daily": -0.00018901801830674915,
+      "alpha_se": 0.0005392137010677551,
+      "alpha_tstat": -0.3505437972597028,
+      "alpha_pvalue": 0.7259306271591726,
+      "alpha_annualized": -0.04652020344329444
+    }
+  },
+  {
+    "bio_guide_id": "P000608",
+    "name": "scott h. peters",
+    "ff5": {
+      "alpha_daily": -0.00019961101148090112,
+      "alpha_se": 0.00041527827385112113,
+      "alpha_tstat": -0.4806680822230118,
+      "alpha_pvalue": 0.6307524193050174,
+      "alpha_annualized": -0.04906255428386108
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00021871818897268203,
+      "alpha_se": 0.0007079906681525132,
+      "alpha_tstat": -0.3089280675738602,
+      "alpha_pvalue": 0.7573762455701172,
+      "alpha_annualized": -0.05363127395797673
+    },
+    "disclosure": {
+      "alpha_daily": -0.024732490425274645,
+      "alpha_se": 0.042136818961478216,
+      "alpha_tstat": -0.5869567526652941,
+      "alpha_pvalue": 0.5572327524736098,
+      "alpha_annualized": -0.9981837042590705
+    },
+    "conflicted": {
+      "alpha_daily": 0.0063832745640536774,
+      "alpha_se": 0.006634902353117056,
+      "alpha_tstat": 0.9620751330356557,
+      "alpha_pvalue": 0.33601186430086694,
+      "alpha_annualized": 3.9702637818594786
+    }
+  },
+  {
+    "bio_guide_id": "T000486",
+    "name": "ritchie torres",
+    "ff5": {
+      "alpha_daily": -0.00020910134278013626,
+      "alpha_se": 0.000309101060571209,
+      "alpha_tstat": -0.6764821265696196,
+      "alpha_pvalue": 0.4987345902094712,
+      "alpha_annualized": -0.05133452798194271
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0001948385055020645,
+      "alpha_se": 0.00044941035357987254,
+      "alpha_tstat": -0.43354253846187,
+      "alpha_pvalue": 0.6646206694561558,
+      "alpha_annualized": -0.04791797503546735
+    },
+    "disclosure": {
+      "alpha_daily": -0.016242820130972946,
+      "alpha_se": 0.02090280127714318,
+      "alpha_tstat": -0.7770642755301016,
+      "alpha_pvalue": 0.4371208495911466,
+      "alpha_annualized": -0.9838655342232578
+    },
+    "conflicted": {
+      "alpha_daily": -0.007239322244846064,
+      "alpha_se": 0.014548269540262854,
+      "alpha_tstat": -0.4976071019863209,
+      "alpha_pvalue": 0.6187609970430312,
+      "alpha_annualized": -0.8397378921752172
+    }
+  },
+  {
+    "bio_guide_id": "T000479",
+    "name": "van taylor",
+    "ff5": {
+      "alpha_daily": -0.00021032398156118227,
+      "alpha_se": 0.0009599470088291196,
+      "alpha_tstat": -0.2190995749002038,
+      "alpha_pvalue": 0.8265724819075193,
+      "alpha_annualized": -0.05162683279883018
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0001443437825654982,
+      "alpha_se": 0.0010467827179107285,
+      "alpha_tstat": -0.1378927833787643,
+      "alpha_pvalue": 0.8903251539531732,
+      "alpha_annualized": -0.035723556808546886
+    },
+    "disclosure": {
+      "alpha_daily": -0.0032559501925618715,
+      "alpha_se": 0.007757823497612922,
+      "alpha_tstat": -0.419698926324339,
+      "alpha_pvalue": 0.6747054095505518,
+      "alpha_annualized": -0.5603771627450528
+    },
+    "conflicted": {
+      "alpha_daily": -0.005632031888750164,
+      "alpha_se": 0.004955859223613617,
+      "alpha_tstat": -1.1364390380410176,
+      "alpha_pvalue": 0.2557728655294119,
+      "alpha_annualized": -0.7590784214505917
+    }
+  },
+  {
+    "bio_guide_id": "G000583",
+    "name": "josh gottheimer",
+    "ff5": {
+      "alpha_daily": -0.0002453629040657546,
+      "alpha_se": 9.541127580966041e-05,
+      "alpha_tstat": -2.571634243265318,
+      "alpha_pvalue": 0.010121976467862706,
+      "alpha_annualized": -0.05996581620307695
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0001680727872899005,
+      "alpha_se": 8.609061785754824e-05,
+      "alpha_tstat": -1.9522776287656092,
+      "alpha_pvalue": 0.050905252000547796,
+      "alpha_annualized": -0.04147333953227095
+    },
+    "disclosure": {
+      "alpha_daily": -0.0003103301269923507,
+      "alpha_se": 0.00013199742827151232,
+      "alpha_tstat": -2.3510316152070527,
+      "alpha_pvalue": 0.018721443098898973,
+      "alpha_annualized": -0.07523472360193018
+    },
+    "conflicted": {
+      "alpha_daily": 0.0016639390625844024,
+      "alpha_se": 0.0016990323215281872,
+      "alpha_tstat": 0.9793451492952057,
+      "alpha_pvalue": 0.32740946911455127,
+      "alpha_annualized": 0.5203858858806083
+    }
+  },
+  {
+    "bio_guide_id": "S000583",
+    "name": "lamar smith",
+    "ff5": {
+      "alpha_daily": -0.0002589750630580785,
+      "alpha_se": 0.00025951288219689853,
+      "alpha_tstat": -0.9979275821135847,
+      "alpha_pvalue": 0.3183144760210458,
+      "alpha_annualized": -0.06318566800241798
+    },
+    "uncertainty": {
+      "alpha_daily": 5.309926029623316e-07,
+      "alpha_se": 0.00030661777084284005,
+      "alpha_tstat": 0.0017317737373888128,
+      "alpha_pvalue": 0.9986182451627901,
+      "alpha_annualized": 0.0001338190534003747
+    },
+    "disclosure": {
+      "alpha_daily": 0.0002178747774645806,
+      "alpha_se": 0.0002212841168338836,
+      "alpha_tstat": 0.9845929322986051,
+      "alpha_pvalue": 0.324824062714935,
+      "alpha_annualized": 0.05643334283648982
+    },
+    "conflicted": {
+      "alpha_daily": 0.0007981298852068671,
+      "alpha_se": 0.0011678903867986701,
+      "alpha_tstat": 0.6833945156399809,
+      "alpha_pvalue": 0.4943575846180197,
+      "alpha_annualized": 0.222684083190819
+    }
+  },
+  {
+    "bio_guide_id": "B000574",
+    "name": "earl blumenauer",
+    "ff5": {
+      "alpha_daily": -0.0002629290459643525,
+      "alpha_se": 0.00014595999195662345,
+      "alpha_tstat": -1.801377503792204,
+      "alpha_pvalue": 0.07164339944350706,
+      "alpha_annualized": -0.06411889177752961
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0002493210164722562,
+      "alpha_se": 0.0001523995904907328,
+      "alpha_tstat": -1.6359690709760606,
+      "alpha_pvalue": 0.10184606066341603,
+      "alpha_annualized": -0.06090321224581974
+    },
+    "disclosure": {
+      "alpha_daily": 0.0013421319126435455,
+      "alpha_se": 0.0010416080834351677,
+      "alpha_tstat": 1.2885191023261515,
+      "alpha_pvalue": 0.19756532368026247,
+      "alpha_annualized": 0.4021271533862876
+    },
+    "conflicted": {
+      "alpha_daily": 0.00019536644236697631,
+      "alpha_se": 0.0004709048219000441,
+      "alpha_tstat": 0.4148745845895065,
+      "alpha_pvalue": 0.6782337161034717,
+      "alpha_annualized": 0.05045933974098182
+    }
+  },
+  {
+    "bio_guide_id": "T000475",
+    "name": "david a. trott",
+    "ff5": {
+      "alpha_daily": -0.00028038683781916917,
+      "alpha_se": 0.0005031439047016847,
+      "alpha_tstat": -0.5572696701660557,
+      "alpha_pvalue": 0.5773431948311778,
+      "alpha_annualized": -0.06822824345226053
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00012142985484199227,
+      "alpha_se": 0.0005863136240984461,
+      "alpha_tstat": -0.20710733957224806,
+      "alpha_pvalue": 0.8359260302190314,
+      "alpha_annualized": -0.03013867484914967
+    },
+    "disclosure": {
+      "alpha_daily": -0.0028805655959916678,
+      "alpha_se": 0.005392690440279043,
+      "alpha_tstat": -0.5341611256741475,
+      "alpha_pvalue": 0.5932300621992876,
+      "alpha_annualized": -0.5166189665596117
+    },
+    "conflicted": {
+      "alpha_daily": -0.0003460827929416867,
+      "alpha_se": 0.0005152231098946112,
+      "alpha_tstat": -0.6717144209864303,
+      "alpha_pvalue": 0.5017655188925321,
+      "alpha_annualized": -0.0835318451066045
+    }
+  },
+  {
+    "bio_guide_id": "H001094",
+    "name": "val t. hoyle",
+    "ff5": {
+      "alpha_daily": -0.00028115983975815435,
+      "alpha_se": 0.000218032785445888,
+      "alpha_tstat": -1.2895301006367843,
+      "alpha_pvalue": 0.19721385872281938,
+      "alpha_annualized": -0.06840978260782771
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0006060233916585623,
+      "alpha_se": 0.00032508167933739137,
+      "alpha_tstat": -1.8642188415348713,
+      "alpha_pvalue": 0.062290978479752984,
+      "alpha_annualized": -0.14166789765162568
+    },
+    "disclosure": {
+      "alpha_daily": -0.008106216436949263,
+      "alpha_se": 0.0037037088599993447,
+      "alpha_tstat": -2.1886753909028087,
+      "alpha_pvalue": 0.028620441868943657,
+      "alpha_annualized": -0.8714054842230234
+    },
+    "conflicted": {
+      "alpha_daily": -0.004605269921819004,
+      "alpha_se": 0.0056828349295519835,
+      "alpha_tstat": -0.8103824902375035,
+      "alpha_pvalue": 0.4177203782035136,
+      "alpha_annualized": -0.6875180356310049
+    }
+  },
+  {
+    "bio_guide_id": "M001193",
+    "name": "thomas macarthur",
+    "ff5": {
+      "alpha_daily": -0.00028738558885028887,
+      "alpha_se": 8.948888442958134e-05,
+      "alpha_tstat": -3.2114110113466903,
+      "alpha_pvalue": 0.0013208487197615504,
+      "alpha_annualized": -0.0698706130735357
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0003330068912946923,
+      "alpha_se": 0.00014416805681424498,
+      "alpha_tstat": -2.3098521174060003,
+      "alpha_pvalue": 0.020896342766360564,
+      "alpha_annualized": -0.08050595591649212
+    },
+    "disclosure": {
+      "alpha_daily": 0.0006605324857304517,
+      "alpha_se": 0.001296326047083553,
+      "alpha_tstat": 0.5095419375522876,
+      "alpha_pvalue": 0.6103724103816937,
+      "alpha_annualized": 0.18104452357824852
+    },
+    "conflicted": {
+      "alpha_daily": -0.0021241115719882243,
+      "alpha_se": 0.001112069396709232,
+      "alpha_tstat": -1.9100530760704018,
+      "alpha_pvalue": 0.05612637983903856,
+      "alpha_annualized": -0.4148256345425263
+    }
+  },
+  {
+    "bio_guide_id": "M001190",
+    "name": "markwayne mullin",
+    "ff5": {
+      "alpha_daily": -0.00029625497678457485,
+      "alpha_se": 0.00026499021922242276,
+      "alpha_tstat": -1.1179845718604038,
+      "alpha_pvalue": 0.2635735826744957,
+      "alpha_annualized": -0.07194781596233002
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0004347790215279856,
+      "alpha_se": 0.00028184891531450894,
+      "alpha_tstat": -1.5425960431418562,
+      "alpha_pvalue": 0.12292881869492282,
+      "alpha_annualized": -0.10379682908953303
+    },
+    "disclosure": {
+      "alpha_daily": -0.00042602768349742196,
+      "alpha_se": 0.0003408804785167527,
+      "alpha_tstat": -1.2497860990783745,
+      "alpha_pvalue": 0.21137769539551077,
+      "alpha_annualized": -0.10181736505438732
+    },
+    "conflicted": {
+      "alpha_daily": -0.0010878125490787652,
+      "alpha_se": 0.0012543646465794638,
+      "alpha_tstat": -0.8672219454248246,
+      "alpha_pvalue": 0.3858204142580005,
+      "alpha_annualized": -0.23987924558802554
+    }
+  },
+  {
+    "bio_guide_id": "T000278",
+    "name": "tommy tuberville",
+    "ff5": {
+      "alpha_daily": -0.0002990143822465835,
+      "alpha_se": 0.00027624221828998543,
+      "alpha_tstat": -1.082435494826113,
+      "alpha_pvalue": 0.2790590634646233,
+      "alpha_annualized": -0.0725931234493653
+    },
+    "uncertainty": {
+      "alpha_daily": -1.2339259257327668e-05,
+      "alpha_se": 0.00023022169687492866,
+      "alpha_tstat": -0.05359729089318264,
+      "alpha_pvalue": 0.9572560149655487,
+      "alpha_annualized": -0.0031046829905098106
+    },
+    "disclosure": {
+      "alpha_daily": -3.9447956782920866e-05,
+      "alpha_se": 0.0007983397729477948,
+      "alpha_tstat": -0.04941249092133163,
+      "alpha_pvalue": 0.9605905740066131,
+      "alpha_annualized": -0.00989183197257859
+    },
+    "conflicted": {
+      "alpha_daily": 0.0024032261780058753,
+      "alpha_se": 0.0012839779854016509,
+      "alpha_tstat": 1.8717035691652486,
+      "alpha_pvalue": 0.06124762549182495,
+      "alpha_annualized": 0.8310442786360073
+    }
+  },
+  {
+    "bio_guide_id": "H001082",
+    "name": "kevin hern",
+    "ff5": {
+      "alpha_daily": -0.0003179844476341498,
+      "alpha_se": 0.00014576795797196945,
+      "alpha_tstat": -2.1814426987808724,
+      "alpha_pvalue": 0.029150688351506488,
+      "alpha_annualized": -0.07701733322689042
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0002797069278440328,
+      "alpha_se": 0.0001602054080418861,
+      "alpha_tstat": -1.7459268776426244,
+      "alpha_pvalue": 0.0808236587839963,
+      "alpha_annualized": -0.06806853777603217
+    },
+    "disclosure": {
+      "alpha_daily": -0.00424519798688494,
+      "alpha_se": 0.001858585296998853,
+      "alpha_tstat": -2.284101780929756,
+      "alpha_pvalue": 0.02236554994835104,
+      "alpha_annualized": -0.6576997744957858
+    },
+    "conflicted": {
+      "alpha_daily": 0.001174204223242908,
+      "alpha_se": 0.0008949773345625963,
+      "alpha_tstat": 1.3119932515573467,
+      "alpha_pvalue": 0.1895224115389632,
+      "alpha_annualized": 0.34410165705230966
+    }
+  },
+  {
+    "bio_guide_id": "P000593",
+    "name": "ed perlmutter",
+    "ff5": {
+      "alpha_daily": -0.0003251947156922444,
+      "alpha_se": 0.00022079684441827547,
+      "alpha_tstat": -1.4728232033796578,
+      "alpha_pvalue": 0.14079871398459873,
+      "alpha_annualized": -0.07869339709169298
+    },
+    "uncertainty": {
+      "alpha_daily": -0.000290214587224638,
+      "alpha_se": 0.00022013558690257902,
+      "alpha_tstat": -1.3183447134018929,
+      "alpha_pvalue": 0.1873882792420828,
+      "alpha_annualized": -0.07053366448749143
+    },
+    "disclosure": {
+      "alpha_daily": -0.00020081406849355504,
+      "alpha_se": 0.0004960050108822381,
+      "alpha_tstat": -0.40486298341294874,
+      "alpha_pvalue": 0.6855782290812735,
+      "alpha_annualized": -0.049350864356006
+    },
+    "conflicted": {
+      "alpha_daily": 0.0011161456978854333,
+      "alpha_se": 0.001859548257801613,
+      "alpha_tstat": 0.6002241099163289,
+      "alpha_pvalue": 0.5483568876669759,
+      "alpha_annualized": 0.32460177107997046
+    }
+  },
+  {
+    "bio_guide_id": "M001236",
+    "name": "tim moore",
+    "ff5": {
+      "alpha_daily": -0.0003290216827253902,
+      "alpha_se": 0.0013598114687070207,
+      "alpha_tstat": -0.24196124999463425,
+      "alpha_pvalue": 0.8088101891862763,
+      "alpha_annualized": -0.07958176336559131
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0008316406903525488,
+      "alpha_se": 0.002584542165124481,
+      "alpha_tstat": -0.3217748588413894,
+      "alpha_pvalue": 0.7476232619039263,
+      "alpha_annualized": -0.18914063333405662
+    },
+    "disclosure": {
+      "alpha_daily": 0.00020695116546609875,
+      "alpha_se": 0.004194641958487036,
+      "alpha_tstat": 0.049337027454124806,
+      "alpha_pvalue": 0.9606507117933352,
+      "alpha_annualized": 0.05352986056682618
+    },
+    "conflicted": {
+      "alpha_daily": -0.00032902168272538944,
+      "alpha_se": 0.0013598114687070205,
+      "alpha_tstat": -0.24196124999463373,
+      "alpha_pvalue": 0.8088101891862768,
+      "alpha_annualized": -0.07958176336559131
+    }
+  },
+  {
+    "bio_guide_id": "W000802",
+    "name": "sheldon whitehouse",
+    "ff5": {
+      "alpha_daily": -0.00033565767441884017,
+      "alpha_se": 9.238694096409215e-05,
+      "alpha_tstat": -3.6331722959557626,
+      "alpha_pvalue": 0.00027995794132027775,
+      "alpha_annualized": -0.08112017568083896
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00031447179486524446,
+      "alpha_se": 8.855953854752906e-05,
+      "alpha_tstat": -3.55096469587486,
+      "alpha_pvalue": 0.0003838218986021616,
+      "alpha_annualized": -0.07619969920102299
+    },
+    "disclosure": {
+      "alpha_daily": -0.0003135843071596875,
+      "alpha_se": 0.0003049839297187519,
+      "alpha_tstat": -1.028199444635875,
+      "alpha_pvalue": 0.3038560196275186,
+      "alpha_annualized": -0.07599300610616622
+    },
+    "conflicted": {
+      "alpha_daily": -0.0002958420616507234,
+      "alpha_se": 0.00032628010084033155,
+      "alpha_tstat": -0.9067119352016405,
+      "alpha_pvalue": 0.3645591502338552,
+      "alpha_annualized": -0.07185121422615359
+    }
+  },
+  {
+    "bio_guide_id": "B001269",
+    "name": "lou barletta",
+    "ff5": {
+      "alpha_daily": -0.00034390241712168646,
+      "alpha_se": 0.00012713208489213799,
+      "alpha_tstat": -2.705079661152901,
+      "alpha_pvalue": 0.006828801119010309,
+      "alpha_annualized": -0.08302797511980509
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0005457588756853712,
+      "alpha_se": 0.00027792736388500614,
+      "alpha_tstat": -1.9636744941429436,
+      "alpha_pvalue": 0.049567852302109826,
+      "alpha_annualized": -0.12852559188188895
+    },
+    "disclosure": {
+      "alpha_daily": -0.000516262377050991,
+      "alpha_se": 0.00025177120169560653,
+      "alpha_tstat": -2.0505219563401713,
+      "alpha_pvalue": 0.04031352344739064,
+      "alpha_annualized": -0.12202021801282537
+    },
+    "conflicted": {
+      "alpha_daily": -0.0003439024171216997,
+      "alpha_se": 0.00012713208489213793,
+      "alpha_tstat": -2.705079661153006,
+      "alpha_pvalue": 0.006828801119008143,
+      "alpha_annualized": -0.08302797511980509
+    }
+  },
+  {
+    "bio_guide_id": "C001035",
+    "name": "susan m. collins",
+    "ff5": {
+      "alpha_daily": -0.0003575705957057089,
+      "alpha_se": 0.00019837685500209722,
+      "alpha_tstat": -1.802481422048599,
+      "alpha_pvalue": 0.07146969503589955,
+      "alpha_annualized": -0.08618204735847224
+    },
+    "uncertainty": {
+      "alpha_daily": -0.000356631369497375,
+      "alpha_se": 0.0002024697392704504,
+      "alpha_tstat": -1.7614057823278082,
+      "alpha_pvalue": 0.07816974705446218,
+      "alpha_annualized": -0.08596565747208118
+    },
+    "disclosure": {
+      "alpha_daily": 0.000821589628052052,
+      "alpha_se": 0.0008989452017353582,
+      "alpha_tstat": 0.9139485103942087,
+      "alpha_pvalue": 0.3607439018450386,
+      "alpha_annualized": 0.22992793916834975
+    },
+    "conflicted": {
+      "alpha_daily": -0.00034243633513809924,
+      "alpha_se": 0.0002806315214660476,
+      "alpha_tstat": -1.2202347524938646,
+      "alpha_pvalue": 0.22237589618064568,
+      "alpha_annualized": -0.08268901843627008
+    }
+  },
+  {
+    "bio_guide_id": "G000563",
+    "name": "bob gibbs",
+    "ff5": {
+      "alpha_daily": -0.0003650466013709723,
+      "alpha_se": 0.0001903178957972579,
+      "alpha_tstat": -1.9180886791636749,
+      "alpha_pvalue": 0.05509976768912355,
+      "alpha_annualized": -0.08790263822124644
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0003595644727523682,
+      "alpha_se": 0.00019345850363545227,
+      "alpha_tstat": -1.8586129117897103,
+      "alpha_pvalue": 0.06308202560402243,
+      "alpha_annualized": -0.08664125088067909
+    },
+    "disclosure": {
+      "alpha_daily": -0.0008335052395897754,
+      "alpha_se": 0.0004498073063484046,
+      "alpha_tstat": -1.853027347101766,
+      "alpha_pvalue": 0.06387843905550625,
+      "alpha_annualized": -0.18952185673913347
+    },
+    "conflicted": {
+      "alpha_daily": -0.0003096063627576795,
+      "alpha_se": 0.00026352704437601,
+      "alpha_tstat": -1.1748561271606033,
+      "alpha_pvalue": 0.24005228055486905,
+      "alpha_annualized": -0.07506598928031716
+    }
+  },
+  {
+    "bio_guide_id": "C001078",
+    "name": "gerald e. connolly",
+    "ff5": {
+      "alpha_daily": -0.0003675441484649344,
+      "alpha_se": 0.0002435239322117581,
+      "alpha_tstat": -1.509273216503968,
+      "alpha_pvalue": 0.131228976325041,
+      "alpha_annualized": -0.08847672536881124
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0003635527744793573,
+      "alpha_se": 0.0002414918011117155,
+      "alpha_tstat": -1.5054456209516434,
+      "alpha_pvalue": 0.13220954757229317,
+      "alpha_annualized": -0.08755909448704013
+    },
+    "disclosure": {
+      "alpha_daily": -0.001003908902527754,
+      "alpha_se": 0.0009071205447886613,
+      "alpha_tstat": -1.1066984518156209,
+      "alpha_pvalue": 0.2684243249678089,
+      "alpha_annualized": -0.22361916734904796
+    },
+    "conflicted": null
+  },
+  {
+    "bio_guide_id": "D000032",
+    "name": "byron donalds",
+    "ff5": {
+      "alpha_daily": -0.00037854635445956267,
+      "alpha_se": 0.0002371690223227736,
+      "alpha_tstat": -1.5961037017068043,
+      "alpha_pvalue": 0.11046564237462833,
+      "alpha_annualized": -0.09100141489571179
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00021883234973045832,
+      "alpha_se": 0.00023651768361616278,
+      "alpha_tstat": -0.9252261665372749,
+      "alpha_pvalue": 0.354848275205338,
+      "alpha_annualized": -0.05365850514284165
+    },
+    "disclosure": {
+      "alpha_daily": -0.001643125163782365,
+      "alpha_se": 0.0007199439656100865,
+      "alpha_tstat": -2.2822959039457564,
+      "alpha_pvalue": 0.02247187621555278,
+      "alpha_annualized": -0.3392687460540599
+    },
+    "conflicted": {
+      "alpha_daily": -0.00031876534772779604,
+      "alpha_se": 0.0003785720078239124,
+      "alpha_tstat": -0.8420203848670855,
+      "alpha_pvalue": 0.3997765432157251,
+      "alpha_annualized": -0.07719900401773216
+    }
+  },
+  {
+    "bio_guide_id": "F000472",
+    "name": "scott franklin",
+    "ff5": {
+      "alpha_daily": -0.00038893943054725983,
+      "alpha_se": 0.00035246361755742606,
+      "alpha_tstat": -1.103488164941991,
+      "alpha_pvalue": 0.26981522832613125,
+      "alpha_annualized": -0.09337992899123537
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0002466375402650776,
+      "alpha_se": 0.00037543338586629545,
+      "alpha_tstat": -0.6569408836562914,
+      "alpha_pvalue": 0.5112189288085536,
+      "alpha_annualized": -0.060267788790775545
+    },
+    "disclosure": {
+      "alpha_daily": 0.00017005554253982834,
+      "alpha_se": 0.0005352988766280352,
+      "alpha_tstat": 0.3176833540377395,
+      "alpha_pvalue": 0.7507251391623149,
+      "alpha_annualized": 0.04378168473370403
+    },
+    "conflicted": {
+      "alpha_daily": 0.00014741706437308222,
+      "alpha_se": 0.0008096826135112799,
+      "alpha_tstat": 0.18206771630403612,
+      "alpha_pvalue": 0.8555295839069458,
+      "alpha_annualized": 0.03784491107552457
+    }
+  },
+  {
+    "bio_guide_id": "C001101",
+    "name": "katherine m. clark",
+    "ff5": {
+      "alpha_daily": -0.00039994597577028897,
+      "alpha_se": 0.0002977458008388063,
+      "alpha_tstat": -1.3432464022786061,
+      "alpha_pvalue": 0.1791922009207344,
+      "alpha_annualized": -0.0958920805786313
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00040089119656985816,
+      "alpha_se": 0.0002977999693433301,
+      "alpha_tstat": -1.3461760840803694,
+      "alpha_pvalue": 0.17824573603710436,
+      "alpha_annualized": -0.09610749574420452
+    },
+    "disclosure": {
+      "alpha_daily": -0.0012006657176880512,
+      "alpha_se": 0.0009287387126702253,
+      "alpha_tstat": -1.2927917198971992,
+      "alpha_pvalue": 0.19608310494239534,
+      "alpha_annualized": -0.26121589665800127
+    },
+    "conflicted": {
+      "alpha_daily": -0.0008338698627467025,
+      "alpha_se": 0.0007659177234677645,
+      "alpha_tstat": -1.0887198940524294,
+      "alpha_pvalue": 0.2762774261269877,
+      "alpha_annualized": -0.18959638626233766
+    }
+  },
+  {
+    "bio_guide_id": "P000616",
+    "name": "dean phillips",
+    "ff5": {
+      "alpha_daily": -0.00040190138166018574,
+      "alpha_se": 0.00029409010491929016,
+      "alpha_tstat": -1.3665926698570263,
+      "alpha_pvalue": 0.1717530160839159,
+      "alpha_annualized": -0.09633765971412289
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00017626461511809077,
+      "alpha_se": 0.0002953114312083392,
+      "alpha_tstat": -0.5968770473830317,
+      "alpha_pvalue": 0.5505894725524252,
+      "alpha_annualized": -0.043450364099330785
+    },
+    "disclosure": {
+      "alpha_daily": -0.0029117957894961633,
+      "alpha_se": 0.0015867425365537304,
+      "alpha_tstat": -1.8350776653535334,
+      "alpha_pvalue": 0.06649418270308782,
+      "alpha_annualized": -0.5204192120723514
+    },
+    "conflicted": {
+      "alpha_daily": -1.033114219645961e-05,
+      "alpha_se": 0.000935552733532995,
+      "alpha_tstat": -0.011042821880756391,
+      "alpha_pvalue": 0.9911892819829207,
+      "alpha_annualized": -0.002600075215718811
+    }
+  },
+  {
+    "bio_guide_id": "L000560",
+    "name": "rick larsen",
+    "ff5": {
+      "alpha_daily": -0.0005147864529123511,
+      "alpha_se": 0.00023707382294913622,
+      "alpha_tstat": -2.1714183645775083,
+      "alpha_pvalue": 0.029899561943336633,
+      "alpha_annualized": -0.12169343923280795
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0004266744339748756,
+      "alpha_se": 0.00024259708741917798,
+      "alpha_tstat": -1.7587780567111038,
+      "alpha_pvalue": 0.07861521328147733,
+      "alpha_annualized": -0.1019638023666134
+    },
+    "disclosure": {
+      "alpha_daily": -0.0009153894572598707,
+      "alpha_se": 0.0004796225602681297,
+      "alpha_tstat": -1.9085621342501664,
+      "alpha_pvalue": 0.05631860058308393,
+      "alpha_annualized": -0.20608889931422314
+    },
+    "conflicted": {
+      "alpha_daily": -0.0004603156800475185,
+      "alpha_se": 0.0002607425524148373,
+      "alpha_tstat": -1.765402983841178,
+      "alpha_pvalue": 0.07749606227433839,
+      "alpha_annualized": -0.10954815829278142
+    }
+  },
+  {
+    "bio_guide_id": "H000273",
+    "name": "john w. hickenlooper",
+    "ff5": {
+      "alpha_daily": -0.0005162032958592044,
+      "alpha_se": 0.0003549053835826478,
+      "alpha_tstat": -1.4544814469938712,
+      "alpha_pvalue": 0.14581287355684822,
+      "alpha_annualized": -0.12200713939671493
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00042553210783104445,
+      "alpha_se": 0.00036292711280164875,
+      "alpha_tstat": -1.1725001875613832,
+      "alpha_pvalue": 0.24099629685545887,
+      "alpha_annualized": -0.10170514066468939
+    },
+    "disclosure": {
+      "alpha_daily": -0.000881548642600539,
+      "alpha_se": 0.0007597405148069302,
+      "alpha_tstat": -1.160328593012528,
+      "alpha_pvalue": 0.2459150473275029,
+      "alpha_annualized": -0.19928342513462172
+    },
+    "conflicted": {
+      "alpha_daily": 0.0030899976361208874,
+      "alpha_se": 0.0042016826573880285,
+      "alpha_tstat": 0.7354190899418809,
+      "alpha_pvalue": 0.4620842991971238,
+      "alpha_annualized": 1.1759793044221052
+    }
+  },
+  {
+    "bio_guide_id": "S001206",
+    "name": "donna e. shalala",
+    "ff5": {
+      "alpha_daily": -0.0005205794263436107,
+      "alpha_se": 0.00035164169743299474,
+      "alpha_tstat": -1.4804257576501063,
+      "alpha_pvalue": 0.13875966025756026,
+      "alpha_annualized": -0.12297534459997006
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0007946366937146892,
+      "alpha_se": 0.00038361979738072213,
+      "alpha_tstat": -2.0714173229335575,
+      "alpha_pvalue": 0.03831981341857703,
+      "alpha_annualized": -0.18153778861862546
+    },
+    "disclosure": {
+      "alpha_daily": 0.0024190527991057526,
+      "alpha_se": 0.006053729471599968,
+      "alpha_tstat": 0.39959710959241296,
+      "alpha_pvalue": 0.689453285697609,
+      "alpha_annualized": 0.838343994601358
+    },
+    "conflicted": {
+      "alpha_daily": -0.00047449722160557026,
+      "alpha_se": 0.000375459696592361,
+      "alpha_tstat": -1.263776714017683,
+      "alpha_pvalue": 0.20631018138091917,
+      "alpha_annualized": -0.11272621247794401
+    }
+  },
+  {
+    "bio_guide_id": "G000584",
+    "name": "greg gianforte",
+    "ff5": {
+      "alpha_daily": -0.0005335121155921777,
+      "alpha_se": 0.00025741850890608116,
+      "alpha_tstat": -2.0725476107346616,
+      "alpha_pvalue": 0.0382144009716166,
+      "alpha_annualized": -0.12583045080143784
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0005230925305409666,
+      "alpha_se": 0.00023916165837450915,
+      "alpha_tstat": -2.1871922702670137,
+      "alpha_pvalue": 0.02872849093675667,
+      "alpha_annualized": -0.12353088026323511
+    },
+    "disclosure": {
+      "alpha_daily": -0.0010876287660689346,
+      "alpha_se": 0.0014918582921722766,
+      "alpha_tstat": -0.7290429471590439,
+      "alpha_pvalue": 0.46597539207794103,
+      "alpha_annualized": -0.23984400272295603
+    },
+    "conflicted": {
+      "alpha_daily": -1.0401264068715893e-05,
+      "alpha_se": 0.0008492169721921865,
+      "alpha_tstat": -0.012248064286640258,
+      "alpha_pvalue": 0.9902277029385652,
+      "alpha_annualized": -0.002617700009313273
+    }
+  },
+  {
+    "bio_guide_id": "M001136",
+    "name": "lisa c. mcclain",
+    "ff5": {
+      "alpha_daily": -0.0005482966435988376,
+      "alpha_se": 0.0006070329802549639,
+      "alpha_tstat": -0.9032402874857706,
+      "alpha_pvalue": 0.366398380228252,
+      "alpha_annualized": -0.12908304170108575
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0006250011395037859,
+      "alpha_se": 0.0009613964696878927,
+      "alpha_tstat": -0.6500971859265158,
+      "alpha_pvalue": 0.5156294468585898,
+      "alpha_annualized": -0.14576549477154077
+    },
+    "disclosure": {
+      "alpha_daily": -0.0002498608807285633,
+      "alpha_se": 0.0007588328620823058,
+      "alpha_tstat": -0.3292699792190371,
+      "alpha_pvalue": 0.7419516332075604,
+      "alpha_annualized": -0.061030995613806094
+    },
+    "conflicted": {
+      "alpha_daily": -0.00044579555116876506,
+      "alpha_se": 0.0013746178394896402,
+      "alpha_tstat": -0.32430508201048613,
+      "alpha_pvalue": 0.7457070725446737,
+      "alpha_annualized": -0.10628247990061168
+    }
+  },
+  {
+    "bio_guide_id": "A000372",
+    "name": "rick w. allen",
+    "ff5": {
+      "alpha_daily": -0.0005688967156258403,
+      "alpha_se": 0.00018225618452709328,
+      "alpha_tstat": -3.12141240694782,
+      "alpha_pvalue": 0.001799857829938102,
+      "alpha_annualized": -0.13359496064999632
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0004186747760373297,
+      "alpha_se": 0.00017633127741632223,
+      "alpha_tstat": -2.3743647875290375,
+      "alpha_pvalue": 0.017579173397255756,
+      "alpha_annualized": -0.10015084574401323
+    },
+    "disclosure": {
+      "alpha_daily": -0.0008962204097308452,
+      "alpha_se": 0.0003142364568019216,
+      "alpha_tstat": -2.852057392868887,
+      "alpha_pvalue": 0.004343725716283349,
+      "alpha_annualized": -0.20224106078277193
+    },
+    "conflicted": {
+      "alpha_daily": -0.0005624727655984661,
+      "alpha_se": 0.0002395750643867043,
+      "alpha_tstat": -2.3477934443568143,
+      "alpha_pvalue": 0.018884990833337337,
+      "alpha_annualized": -0.13219046247359878
+    }
+  },
+  {
+    "bio_guide_id": "M001217",
+    "name": "jared moskowitz",
+    "ff5": {
+      "alpha_daily": -0.000603598846241176,
+      "alpha_se": 0.0002680545978116133,
+      "alpha_tstat": -2.251775761986297,
+      "alpha_pvalue": 0.02433644612779851,
+      "alpha_annualized": -0.14114299142213005
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0006069507356268869,
+      "alpha_se": 0.00024963285815434827,
+      "alpha_tstat": -2.4313735784397763,
+      "alpha_pvalue": 0.015041696537941858,
+      "alpha_annualized": -0.1418685801258942
+    },
+    "disclosure": {
+      "alpha_daily": -0.0009538754515534201,
+      "alpha_se": 0.0005471632688495191,
+      "alpha_tstat": -1.7433104629977547,
+      "alpha_pvalue": 0.08127939869732154,
+      "alpha_annualized": -0.21375853898730746
+    },
+    "conflicted": {
+      "alpha_daily": -0.00044448674745717505,
+      "alpha_se": 0.00047413279915559613,
+      "alpha_tstat": -0.9374731051063773,
+      "alpha_pvalue": 0.3485152518861959,
+      "alpha_annualized": -0.10598753536879812
+    }
+  },
+  {
+    "bio_guide_id": "H001061",
+    "name": "john hoeven",
+    "ff5": {
+      "alpha_daily": -0.000608962855392207,
+      "alpha_se": 0.0002237705168422341,
+      "alpha_tstat": -2.7213721628106473,
+      "alpha_pvalue": 0.006501152470291979,
+      "alpha_annualized": -0.1423038535145652
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0008849812297986879,
+      "alpha_se": 0.0003223592066206792,
+      "alpha_tstat": -2.745326367675446,
+      "alpha_pvalue": 0.006045074671018136,
+      "alpha_annualized": -0.19997636686604892
+    },
+    "disclosure": {
+      "alpha_daily": -0.0017014515775809235,
+      "alpha_se": 0.0008080883930583764,
+      "alpha_tstat": -2.1055265639213436,
+      "alpha_pvalue": 0.03524549750006503,
+      "alpha_annualized": -0.34892535022247817
+    },
+    "conflicted": {
+      "alpha_daily": -0.0015128779590128012,
+      "alpha_se": 0.0009064986123373144,
+      "alpha_tstat": -1.6689247379121732,
+      "alpha_pvalue": 0.0951322963043834,
+      "alpha_annualized": -0.3171867792041537
+    }
+  },
+  {
+    "bio_guide_id": "R000589",
+    "name": "e. scott rigell",
+    "ff5": {
+      "alpha_daily": -0.0006132011506727961,
+      "alpha_se": 0.0004775547450275799,
+      "alpha_tstat": -1.2840436767880556,
+      "alpha_pvalue": 0.19912667351616464,
+      "alpha_annualized": -0.1432199867432179
+    },
+    "uncertainty": {
+      "alpha_daily": -3.1526139064864004e-05,
+      "alpha_se": 0.00119699016896415,
+      "alpha_tstat": -0.026337842934955814,
+      "alpha_pvalue": 0.9789878710745948,
+      "alpha_annualized": -0.007913236462058881
+    },
+    "disclosure": {
+      "alpha_daily": -0.0010969137637557539,
+      "alpha_se": 0.001870358450064816,
+      "alpha_tstat": -0.5864724827039122,
+      "alpha_pvalue": 0.5575580480199046,
+      "alpha_annualized": -0.24162249159401217
+    },
+    "conflicted": {
+      "alpha_daily": -0.0006132011506727961,
+      "alpha_se": 0.0004775547450275799,
+      "alpha_tstat": -1.2840436767880556,
+      "alpha_pvalue": 0.19912667351616464,
+      "alpha_annualized": -0.1432199867432179
+    }
+  },
+  {
+    "bio_guide_id": "F000450",
+    "name": "virginia foxx",
+    "ff5": {
+      "alpha_daily": -0.0006745593751828806,
+      "alpha_se": 0.00022147605057498842,
+      "alpha_tstat": -3.045744103850565,
+      "alpha_pvalue": 0.002321052845422063,
+      "alpha_annualized": -0.15637426288076273
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0006656916813385792,
+      "alpha_se": 0.00018414645866886533,
+      "alpha_tstat": -3.6150121275784897,
+      "alpha_pvalue": 0.00030033356199101206,
+      "alpha_annualized": -0.15448567217788678
+    },
+    "disclosure": {
+      "alpha_daily": -0.0006681344383825656,
+      "alpha_se": 0.00034678888109585356,
+      "alpha_tstat": -1.9266316620972952,
+      "alpha_pvalue": 0.05402554989031338,
+      "alpha_annualized": -0.15500633643751427
+    },
+    "conflicted": {
+      "alpha_daily": -0.0006745593751828806,
+      "alpha_se": 0.00022147605057498842,
+      "alpha_tstat": -3.045744103850565,
+      "alpha_pvalue": 0.002321052845422063,
+      "alpha_annualized": -0.15637426288076273
+    }
+  },
+  {
+    "bio_guide_id": "F000459",
+    "name": "charles j. \"chuck\" fleischmann",
+    "ff5": {
+      "alpha_daily": -0.0007508776173231237,
+      "alpha_se": 0.0026359216341564984,
+      "alpha_tstat": -0.28486340701225227,
+      "alpha_pvalue": 0.7757487919010936,
+      "alpha_annualized": -0.17245536707356335
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00665981906187765,
+      "alpha_se": 0.00828376143896079,
+      "alpha_tstat": -0.803960750312618,
+      "alpha_pvalue": 0.42141964313819336,
+      "alpha_annualized": -0.814349209879078
+    },
+    "disclosure": null,
+    "conflicted": null
+  },
+  {
+    "bio_guide_id": "H001051",
+    "name": "richard l. hanna",
+    "ff5": {
+      "alpha_daily": -0.0007597437076450554,
+      "alpha_se": 0.0002707956712709219,
+      "alpha_tstat": -2.8055976821171473,
+      "alpha_pvalue": 0.005022335605348065,
+      "alpha_annualized": -0.17430364310311752
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0002433998623729968,
+      "alpha_se": 0.0004026119184601393,
+      "alpha_tstat": -0.6045520542559265,
+      "alpha_pvalue": 0.5454766721307771,
+      "alpha_annualized": -0.0595005652107492
+    },
+    "disclosure": {
+      "alpha_daily": 0.002249470042734315,
+      "alpha_se": 0.0025462693164968555,
+      "alpha_tstat": 0.8834375956071783,
+      "alpha_pvalue": 0.3769998854942517,
+      "alpha_annualized": 0.7616129368142277
+    },
+    "conflicted": {
+      "alpha_daily": -0.0012343431579404725,
+      "alpha_se": 0.0007088104880323,
+      "alpha_tstat": -1.7414290262085177,
+      "alpha_pvalue": 0.08160840397680563,
+      "alpha_annualized": -0.26746679488540415
+    }
+  },
+  {
+    "bio_guide_id": "L000595",
+    "name": "julia letlow",
+    "ff5": {
+      "alpha_daily": -0.0007668912124506944,
+      "alpha_se": 0.0003764348017685456,
+      "alpha_tstat": -2.03724843943155,
+      "alpha_pvalue": 0.04162515190455136,
+      "alpha_annualized": -0.1757906590879469
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0004885571766666519,
+      "alpha_se": 0.0005601365918790493,
+      "alpha_tstat": -0.8722107852795777,
+      "alpha_pvalue": 0.38309339680107024,
+      "alpha_annualized": -0.11586586640715923
+    },
+    "disclosure": {
+      "alpha_daily": -0.008685128690667008,
+      "alpha_se": 0.003715597872271014,
+      "alpha_tstat": -2.337478109642302,
+      "alpha_pvalue": 0.019414337862897132,
+      "alpha_annualized": -0.8889985690277467
+    },
+    "conflicted": {
+      "alpha_daily": -0.0007516954273098218,
+      "alpha_se": 0.0004520225618974112,
+      "alpha_tstat": -1.6629599729590994,
+      "alpha_pvalue": 0.09632044807261539,
+      "alpha_annualized": -0.17262602481537948
+    }
+  },
+  {
+    "bio_guide_id": "H001041",
+    "name": "dean heller",
+    "ff5": {
+      "alpha_daily": -0.0007885332899689476,
+      "alpha_se": 0.0004841509406385537,
+      "alpha_tstat": -1.6286930867653373,
+      "alpha_pvalue": 0.10337800698724149,
+      "alpha_annualized": -0.1802769790882095
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00024150944658396823,
+      "alpha_se": 0.0005934114299027473,
+      "alpha_tstat": -0.406984824379855,
+      "alpha_pvalue": 0.6840191341583627,
+      "alpha_annualized": -0.0590523101515249
+    },
+    "disclosure": {
+      "alpha_daily": -0.0003408965329324612,
+      "alpha_se": 0.0015400453556146487,
+      "alpha_tstat": -0.22135486574446098,
+      "alpha_pvalue": 0.8248161326424244,
+      "alpha_annualized": -0.08233288334264421
+    },
+    "conflicted": {
+      "alpha_daily": 0.0008982755624449309,
+      "alpha_se": 0.002744240783100736,
+      "alpha_tstat": 0.32733117588536215,
+      "alpha_pvalue": 0.7434174151034786,
+      "alpha_annualized": 0.2539064439255374
+    }
+  },
+  {
+    "bio_guide_id": "B001327",
+    "name": "robert p. bresnahan, jr.",
+    "ff5": {
+      "alpha_daily": -0.0009715696017450059,
+      "alpha_se": 0.000583935929827204,
+      "alpha_tstat": -1.6638291156916973,
+      "alpha_pvalue": 0.09614658372931244,
+      "alpha_annualized": -0.21725989025105796
+    },
+    "uncertainty": {
+      "alpha_daily": -0.00017900076263440865,
+      "alpha_se": 0.0011677188509059916,
+      "alpha_tstat": -0.15329097624443444,
+      "alpha_pvalue": 0.8781688164879817,
+      "alpha_annualized": -0.04410980361586814
+    },
+    "disclosure": {
+      "alpha_daily": -0.00041393209516462325,
+      "alpha_se": 0.006619438367667719,
+      "alpha_tstat": -0.06253281202623649,
+      "alpha_pvalue": 0.9501385328424783,
+      "alpha_annualized": -0.09907429463946227
+    },
+    "conflicted": {
+      "alpha_daily": -0.0010611406666293439,
+      "alpha_se": 0.001508808591449729,
+      "alpha_tstat": -0.7032970733615413,
+      "alpha_pvalue": 0.48187063418344056,
+      "alpha_annualized": -0.2347474943695047
+    }
+  },
+  {
+    "bio_guide_id": "M001232",
+    "name": "april mcclain delaney",
+    "ff5": {
+      "alpha_daily": -0.0010285083576736004,
+      "alpha_se": 0.0008036602209654687,
+      "alpha_tstat": -1.2797800996520803,
+      "alpha_pvalue": 0.20062248461572152,
+      "alpha_annualized": -0.22842197960358324
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0008201152050811777,
+      "alpha_se": 0.0020465724959348353,
+      "alpha_tstat": -0.40072619304236506,
+      "alpha_pvalue": 0.6886217240754697,
+      "alpha_annualized": -0.18678017965365956
+    },
+    "disclosure": {
+      "alpha_daily": -0.007017903217787674,
+      "alpha_se": 0.010179951596541047,
+      "alpha_tstat": -0.6893847334374579,
+      "alpha_pvalue": 0.49058118803540085,
+      "alpha_annualized": -0.8304735674139307
+    },
+    "conflicted": {
+      "alpha_daily": 0.0024869741927618563,
+      "alpha_se": 0.003133424636248264,
+      "alpha_tstat": 0.7936920403292608,
+      "alpha_pvalue": 0.42737473517661584,
+      "alpha_annualized": 0.8700019453156427
+    }
+  },
+  {
+    "bio_guide_id": "W000779",
+    "name": "ron wyden",
+    "ff5": {
+      "alpha_daily": -0.001266648521299178,
+      "alpha_se": 0.0010056824787129414,
+      "alpha_tstat": -1.2594914877310157,
+      "alpha_pvalue": 0.20785286291413596,
+      "alpha_annualized": -0.2734135097286121
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0014560400014836273,
+      "alpha_se": 0.0011719355955993969,
+      "alpha_tstat": -1.2424232244084392,
+      "alpha_pvalue": 0.21408045119403962,
+      "alpha_annualized": -0.30732160678744025
+    },
+    "disclosure": {
+      "alpha_daily": 0.0022172837553188136,
+      "alpha_se": 0.005582902063036529,
+      "alpha_tstat": 0.3971561260225363,
+      "alpha_pvalue": 0.6912523335142304,
+      "alpha_annualized": 0.7474139650379295
+    },
+    "conflicted": {
+      "alpha_daily": 0.0017629161716747877,
+      "alpha_se": 0.0024257438006113907,
+      "alpha_tstat": 0.7267528298868404,
+      "alpha_pvalue": 0.46737738382686655,
+      "alpha_annualized": 0.5587180846393207
+    }
+  },
+  {
+    "bio_guide_id": "G000599",
+    "name": "daniel s. goldman",
+    "ff5": {
+      "alpha_daily": -0.0014139174014972911,
+      "alpha_se": 0.0005013391880039473,
+      "alpha_tstat": -2.8202810299484478,
+      "alpha_pvalue": 0.004798160791999898,
+      "alpha_annualized": -0.2999190566962988
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0013019498725806219,
+      "alpha_se": 0.0005155452782369067,
+      "alpha_tstat": -2.525384146729284,
+      "alpha_pvalue": 0.011557188052716966,
+      "alpha_annualized": -0.2798567530823526
+    },
+    "disclosure": {
+      "alpha_daily": 0.008338705291966335,
+      "alpha_se": 0.0051748218842763505,
+      "alpha_tstat": 1.6113994797199525,
+      "alpha_pvalue": 0.10709268056783382,
+      "alpha_annualized": 7.1062944413326665
+    },
+    "conflicted": {
+      "alpha_daily": 0.0006587873689775245,
+      "alpha_se": 0.002550708587513845,
+      "alpha_tstat": 0.25827621869562106,
+      "alpha_pvalue": 0.7961937385120135,
+      "alpha_annualized": 0.18052559274227353
+    }
+  },
+  {
+    "bio_guide_id": "K000378",
+    "name": "adam kinzinger",
+    "ff5": {
+      "alpha_daily": -0.0016145176603058772,
+      "alpha_se": 0.0013324306795107373,
+      "alpha_tstat": -1.211708560252246,
+      "alpha_pvalue": 0.22562396116050132,
+      "alpha_annualized": -0.33448043618882894
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0015093895611947147,
+      "alpha_se": 0.0012535495494801578,
+      "alpha_tstat": -1.2040924603424354,
+      "alpha_pvalue": 0.22855384375232268,
+      "alpha_annualized": -0.31658536118803704
+    },
+    "disclosure": {
+      "alpha_daily": -0.001475670422780763,
+      "alpha_se": 0.0014071013483624656,
+      "alpha_tstat": -1.0487307289543113,
+      "alpha_pvalue": 0.2943020671268961,
+      "alpha_annualized": -0.3107447380331674
+    },
+    "conflicted": {
+      "alpha_daily": -0.0016405759762715016,
+      "alpha_se": 0.0013699396779590471,
+      "alpha_tstat": -1.1975534417074858,
+      "alpha_pvalue": 0.23109091066075127,
+      "alpha_annualized": -0.33884346059198034
+    }
+  },
+  {
+    "bio_guide_id": "J000309",
+    "name": "jonathan l. jackson",
+    "ff5": {
+      "alpha_daily": -0.0017020031307399942,
+      "alpha_se": 0.0004058793950393702,
+      "alpha_tstat": -4.193371606299207,
+      "alpha_pvalue": 2.7483866283812694e-05,
+      "alpha_annualized": -0.34901599194514377
+    },
+    "uncertainty": {
+      "alpha_daily": -0.0012877935001517188,
+      "alpha_se": 0.000430563069444944,
+      "alpha_tstat": -2.990952061475836,
+      "alpha_pvalue": 0.002781091488183612,
+      "alpha_annualized": -0.2772797791789967
+    },
+    "disclosure": {
+      "alpha_daily": -0.0007812860061898322,
+      "alpha_se": 0.0006017393271248476,
+      "alpha_tstat": -1.2983794991809345,
+      "alpha_pvalue": 0.19415696024953455,
+      "alpha_annualized": -0.1787773601824626
+    },
+    "conflicted": {
+      "alpha_daily": -0.0015213716544411286,
+      "alpha_se": 0.000719741344596479,
+      "alpha_tstat": -2.1137755470947432,
+      "alpha_pvalue": 0.03453444244316487,
+      "alpha_annualized": -0.31864893320779764
+    }
+  },
+  {
+    "bio_guide_id": "R000011",
+    "name": "nick j. rahall ii",
+    "ff5": {
+      "alpha_daily": -0.002755806488047523,
+      "alpha_se": 0.003317877168417726,
+      "alpha_tstat": -0.8305932824396116,
+      "alpha_pvalue": 0.4062034309065752,
+      "alpha_annualized": -0.5011360670136782
+    },
+    "uncertainty": {
+      "alpha_daily": -0.019881714525124366,
+      "alpha_se": 0.016464607697570778,
+      "alpha_tstat": -1.207542559793742,
+      "alpha_pvalue": 0.22722326500516676,
+      "alpha_annualized": -0.9936586767291549
+    },
+    "disclosure": {
+      "alpha_daily": 0.02720859728450211,
+      "alpha_se": 0.021430663160008013,
+      "alpha_tstat": 1.269610608003786,
+      "alpha_pvalue": 0.2042233688672439,
+      "alpha_annualized": 865.9193359823604
+    },
+    "conflicted": {
+      "alpha_daily": -0.002755806488047523,
+      "alpha_se": 0.003317877168417726,
+      "alpha_tstat": -0.8305932824396116,
+      "alpha_pvalue": 0.4062034309065752,
+      "alpha_annualized": -0.5011360670136782
+    }
+  }
+]

@@ -173,3 +173,5 @@ cython_debug/
 output/
 wharton_data.csv
 ticker_data.csv
+.tmp/
+all_trades.csv

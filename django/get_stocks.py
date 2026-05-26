@@ -7,12 +7,16 @@ import pandas as pd
 import os
 import django
 import pandas as pd
+import yfinance as yf
+import time
+
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 
 
 django.setup()
 from server.models import Stock, Sector
+from django.db.models import Q
 
 NAICS_SECTORS = {
     "11": "Agriculture, Forestry, Fishing and Hunting",
@@ -40,6 +44,44 @@ NAICS_SECTORS = {
     "81": "Other Services (except Public Administration)",
     "92": "Public Administration",
 }
+
+
+def fetch_descriptions(batch_size=200, overwrite=True):
+    qs = Stock.objects.all()
+    if not overwrite:
+        qs = qs.filter(Q(description__isnull=True) | Q(description=""))
+
+    tickers = list(qs.values_list("ticker", flat=True))
+    print(f"Fetching descriptions for {len(tickers)} stocks...")
+
+    updated = 0
+    failed = 0
+
+    for i in range(0, len(tickers), batch_size):
+        batch = tickers[i : i + batch_size]
+        # yfinance bulk download — single HTTP round trip per batch
+        data = yf.Tickers(" ".join(batch))
+
+        for ticker in batch:
+            try:
+                info = data.tickers[ticker].info
+                desc = info.get("longBusinessSummary") or info.get("description") or ""
+                if desc:
+                    Stock.objects.filter(ticker=ticker).update(description=desc)
+                    updated += 1
+                else:
+                    failed += 1
+                    print(f"No description: {ticker}")
+            except Exception as e:
+                failed += 1
+                print(f"Failed {ticker}: {e}")
+
+        print(
+            f"  Batch {i // batch_size + 1}: {min(i + batch_size, len(tickers))}/{len(tickers)}"
+        )
+        time.sleep(1)
+
+    print(f"Done. Updated: {updated}, Failed/empty: {failed}")
 
 
 def get_or_create_sector(naics_code):
@@ -120,4 +162,5 @@ def import_stocks(stock_csv_path, crosswalk_path):
 
 
 if __name__ == "__main__":
-    import_stocks("./data/ticker_data.csv", "./data/SIC_to_NAICS.csv")
+    # import_stocks("./data/ticker_data.csv", "./data/SIC_to_NAICS.csv")
+    fetch_descriptions()

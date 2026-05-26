@@ -1,15 +1,8 @@
 import pandas as pd
 import statsmodels.api as sm
-
-
-def model_summary(model, file_prefix, test):
-    print(model.summary())
-    alpha_daily = model.params["const"]
-    alpha_annualized = (1 + alpha_daily) ** 252 - 1
-    print(f"Annualized excess returns: {alpha_annualized:.2%}%")
-
-    with open(f"./output/{file_prefix}_{test}.txt", "w") as f:
-        f.write(model.summary().as_text())
+from ff5 import run_reg
+import json
+from utils import model_summary
 
 
 # For each day in return series it computes the average disclosure lag across their positions
@@ -31,7 +24,7 @@ def disclosure_lag(file_prefix, bio_guide_id):
     factors = pd.read_csv("./data/ff5.csv", index_col="date", parse_dates=True)
 
     returns = pd.read_csv(
-        f"./output/{file_prefix}.csv", index_col=0, parse_dates=True
+        f"../django/output/{file_prefix}.csv", index_col=0, parse_dates=True
     ).squeeze()
 
     member_df = full_df[full_df["member_bio_guide_id"] == bio_guide_id]
@@ -64,14 +57,14 @@ def disclosure_lag(file_prefix, bio_guide_id):
 
     model = sm.OLS(y, X).fit(cov_type="HC3")
 
-    model_summary(model, file_prefix, "lag")
+    return model_summary(model, file_prefix, "lag")
 
 
 # Uses the daily policy uncertainty index as a 6th factor. Usually reduces alpha but not significant on my tests.
 def uncertainty(file_prefix):
     factors = pd.read_csv("./data/ff5.csv", index_col="date", parse_dates=True)
     returns = pd.read_csv(
-        f"./output/{file_prefix}.csv", index_col=0, parse_dates=True
+        f"../django/output/{file_prefix}.csv", index_col=0, parse_dates=True
     ).squeeze()
 
     unc = pd.read_csv("./data/uncertainty_data.csv")
@@ -93,8 +86,90 @@ def uncertainty(file_prefix):
     # model = sm.OLS(y, X).fit(cov_type="HAC", cov_kwds={"maxlags": 5})
     model = sm.OLS(y, X).fit(cov_type="HC3")
 
-    model_summary(model, file_prefix, "unc")
+    return model_summary(model, file_prefix, "unc")
+
+
+def conflicted(file_prefix, bio_guide_id):
+    full_df = pd.read_csv("./data/closed_trade_segments.csv")
+    full_df["buy_date"] = pd.to_datetime(full_df["buy_date"])
+    full_df["sell_date"] = pd.to_datetime(full_df["sell_date"])
+
+    factors = pd.read_csv("./data/ff5.csv", index_col="date", parse_dates=True)
+    returns = pd.read_csv(
+        f"../django/output/{file_prefix}.csv", index_col=0, parse_dates=True
+    ).squeeze()
+
+    member_df = full_df[full_df["member_bio_guide_id"] == bio_guide_id]
+
+    member_dates = returns.index
+    daily_conflicted_prop = []
+
+    for date in member_dates:
+        open_positions = member_df[
+            (member_df["buy_date"] <= date) & (member_df["sell_date"] > date)
+        ]
+        if open_positions.empty:
+            daily_conflicted_prop.append(0.0)
+        else:
+            daily_conflicted_prop.append(open_positions["buy_conflicted"].mean())
+
+    conflicted_series = pd.Series(
+        daily_conflicted_prop, index=member_dates, name="conflicted"
+    )
+
+    df = (
+        returns.to_frame(name="ret")
+        .join(factors, how="inner")
+        .join(conflicted_series, how="inner")
+    )
+    df["excess_ret"] = df["ret"] - df["RF"]
+
+    X = df[["Mkt-RF", "SMB", "HML", "RMW", "CMA", "conflicted"]]
+    X = sm.add_constant(X)
+    y = df["excess_ret"]
+
+    model = sm.OLS(y, X).fit(cov_type="HC3")
+    return model_summary(model, file_prefix, "conflict")
+
+
+def run_all():
+    df = pd.read_csv("./data/closed_trade_segments.csv")
+
+    active_members = (
+        df.groupby("member_bio_guide_id")
+        .filter(lambda x: len(x) > 10)[["member_bio_guide_id", "member_name"]]
+        .drop_duplicates("member_bio_guide_id")
+    )
+    print(f"Running regressions for {len(active_members)} members...")
+    alphas = []
+
+    for _, row in active_members.iterrows():
+        bio_guide_id = row["member_bio_guide_id"]
+        name = row["member_name"].lower()
+        print(f"Processing {name} ({bio_guide_id})...")
+
+        alphas.append(
+            {
+                "bio_guide_id": bio_guide_id,
+                "name": name,
+                "ff5": run_reg(name),
+                "uncertainty": uncertainty(name),
+                "disclosure": disclosure_lag(name, bio_guide_id),
+                "conflicted": conflicted(name, bio_guide_id),
+            }
+        )
+
+    alphas.sort(
+        key=lambda x: (
+            x["ff5"]["alpha_annualized"] if x["ff5"] is not None else float("-inf")
+        ),
+        reverse=True,
+    )
+
+    with open("./data/alphas.json", "w") as f:
+        json.dump(alphas, f, indent=2)
+    print(f"Done. {len(alphas)} members processed.")
 
 
 if __name__ == "__main__":
-    uncertainty("pelosi")
+    pass

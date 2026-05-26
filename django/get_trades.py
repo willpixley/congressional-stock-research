@@ -1,21 +1,13 @@
 import os
 import django
-from datetime import datetime, timedelta
-import requests
-from dotenv import load_dotenv
-import pandas as pd
+from datetime import datetime
 import csv
-from datetime import datetime, date
+from datetime import datetime
 from django.db import transaction
 from collections import defaultdict
 import json
 
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
-
-load_dotenv()
-
-API_KEY = os.environ.get("CONGRESS_API_KEY")
 
 
 django.setup()
@@ -114,6 +106,7 @@ def import_trades_from_csv(path, unmatched_json_path="trade_insert_report.json")
                     amount=amount,
                     member=member,
                     price_at_trade=0,  # Will populate later
+                    description=row.get("Description") or None,
                 )
                 trades_to_create.append(trade)
 
@@ -181,6 +174,11 @@ def set_conflicted():
         print(f"Found {len(conflicted_ids)} conflicted trades")
 
 
+def get_options():
+    pass
+
+
 if __name__ == "__main__":
     # import_trades_from_csv("./data/all_trades.csv")
-    set_conflicted()
+    # set_conflicted()
+    get_options()
